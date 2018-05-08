@@ -1,0 +1,4319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="true" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.3.2655">forge</Import>
+		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DankNull-1.12-1.4.33.jar</URL>
+			<Size>317298</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1b74f9110a168e027ae62652a23d7063</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds the /dank/null items from p455w0rd&apos;s Things 1.10.2 mod</description>
+				<version>1.12-1.4.33</version>
+				<url></url>
+				<authors>TheRealp455w0rd</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/DankNull.cfg</URL>
+				<Path>config/DankNull.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2120bdb3ddf892a841d2d68bdb5733ce</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="[1.12.x] SecurityCraft v1.8.4.1" id="[..x]SecurityCraftv" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/[1.12.x]%20SecurityCraft%20v1.8.4.1.jar</URL>
+			<Size>1244675</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>792885fe739d32100c71b6161d8bcf62</MD5>
+		</Module>
+		<Module name="Actually Additions" id="actuallyadditions" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ActuallyAdditions-1.12.2-r133.jar</URL>
+			<Size>2845687</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>949a0f9097c4f27de14131226bc9b046</MD5>
+			<Meta>
+				<credits>Author: Ellpeck; Textures and Models: BootyToast, GlenthorLP, canitzp</credits>
+				<description>Do you want Automation? Wireless Transport? Better Machines? A cup o&apos; Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more!</description>
+				<version>1.12.2-r133</version>
+				<url>http://github.com/Ellpeck/ActuallyAdditions</url>
+				<authors>Ellpeck</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/actuallyadditions.cfg</URL>
+				<Path>config/actuallyadditions.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>28a6e5fed8c21be399abf9ff08ee8937</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Actually Baubles" id="actuallybaubles" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ActuallyBaubles-1.12-1.1.jar</URL>
+			<Size>11604</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>71b8dfb3383bf90c615ff4be27f425b7</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Baubles capability for some Actually Additions gadgets!</description>
+				<version>1.1</version>
+				<url>https://github.com/Jacky1356400/ActuallyBaubles</url>
+				<authors>Jacky1356400</authors>
+			</Meta>
+		</Module>
+		<Module name="Advanced Rocketry" id="advancedRocketry" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/AdvancedRocketry-1.12.2-1.4.0-77.jar</URL>
+			<Size>11580746</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ace51919bad402f613fb3a49c394d3bd</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A space mod for minecraft, adds planets, rockets, and some machines</description>
+				<version>1.12.2-1.4.0-77</version>
+				<url>http://minecraft.curseforge.com/projects/advanced-rocketry</url>
+				<authors>zmaster587</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/advRocketry/Lathe.xml</URL>
+				<Path>config/advRocketry/Lathe.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6ad314d68dd85e326db6a633cc1127f2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/advRocketry/ElectricArcFurnace.xml</URL>
+				<Path>config/advRocketry/ElectricArcFurnace.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9bf2b3a47b231571ee4036cddda20b28</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/advRocketry/CuttingMachine.xml</URL>
+				<Path>config/advRocketry/CuttingMachine.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4f1b381832c520cfada25132a116b21b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/advRocketry/asteroidConfig.xml</URL>
+				<Path>config/advRocketry/asteroidConfig.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>57da5a1f37efff7ce2e0193ac7cbf433</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/advRocketry/PrecisionAssembler.xml</URL>
+				<Path>config/advRocketry/PrecisionAssembler.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>49007d49eae7997bd4bdb83fabc83e58</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/advRocketry/Crystallizer.xml</URL>
+				<Path>config/advRocketry/Crystallizer.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9ca7faf1ffac792288f7b06b064d8a84</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/advRocketry/advancedRocketry.cfg</URL>
+				<Path>config/advRocketry/advancedRocketry.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>63c0fc740cb15e3b8d3d3ab455186574</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/advRocketry/RollingMachine.xml</URL>
+				<Path>config/advRocketry/RollingMachine.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>665f90e5916412ee33858df0418f103b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/advRocketry/ChemicalReactor.xml</URL>
+				<Path>config/advRocketry/ChemicalReactor.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5abbfcac06449c6fb0e4849eba0d8887</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/advRocketry/Electrolyser.xml</URL>
+				<Path>config/advRocketry/Electrolyser.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>50f17f382544b04f089466d9c17646a8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/advRocketry/SmallPlatePress.xml</URL>
+				<Path>config/advRocketry/SmallPlatePress.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>019a60d77bdf457721a725a20b30f6f9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/advRocketry/oreConfig.xml</URL>
+				<Path>config/advRocketry/oreConfig.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>28da857998459b4dacc4ffc82815e9d1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Adventure Tools" id="adventurepack" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/adventurepack-1.5.jar</URL>
+			<Size>53392</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9d793a4057ce27f31b9037121bb469f0</MD5>
+			<Meta>
+				<credits>mcjty</credits>
+				<description>Adds adventure themed items aimed at making the game less tedious.</description>
+				<version>1.5</version>
+				<url></url>
+				<authors>Brobotato</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/adventurepack.cfg</URL>
+				<Path>config/adventurepack.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a02e804c2fa0338824572d194c54de94</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Akashic Tome" id="akashictome" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/AkashicTome-1.2-10.jar</URL>
+			<Size>43608</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e5d6f7aa5bfe8987fcecc57dc2dc512b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>The book of books.</description>
+				<version>1.2-10</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/akashictome.cfg</URL>
+				<Path>config/akashictome.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>db018d2a579a67a6515587507240de91</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="AngelRing 2 Bauble" id="flyringbaublemod" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/angelRingToBauble-1.12-0.3.1.50+d4e654e.jar</URL>
+			<Size>44041</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>da672a35350bb77a07b9c65bad992153</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Make the Extra Utils 2 Angel Ring into a bauble</description>
+				<version>0.3.1</version>
+				<url></url>
+				<authors>Portablejim. Art by JamiesWhiteShirt</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/flyringbaublemod.cfg</URL>
+				<Path>config/flyringbaublemod.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8573e251ca12ff3d67c6efee98018aac</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/AppleSkin-mc1.12-1.0.9.jar</URL>
+			<Size>32317</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0e0af1e6f80ea2ee7ecfc2f8f44b897b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds various food-related HUD improvements</description>
+				<version>1.0.9</version>
+				<url></url>
+				<authors>squeek</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/appleskin.cfg</URL>
+				<Path>config/appleskin.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5985c69d22b2f08443f7179dcd227f68</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Aroma1997&apos;s Dimensional World" id="aroma1997sdimension" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b68.jar</URL>
+			<Size>75546</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>58574ac95d255ce8a263a99875e6b568</MD5>
+			<Meta>
+				<credits>Code by Aroma1997, Textures by Schillaa</credits>
+				<description>This mod adds a new Dimension especially for mining. It is pretty much like the overworld, just different. :-)</description>
+				<version>2.0.0.2.b68</version>
+				<url>http://www.minecraftforum.net/topic/1679684-</url>
+				<authors>Aroma1997, Schillaa</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/aroma1997/aroma1997sdimension.cfg</URL>
+				<Path>config/aroma1997/aroma1997sdimension.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>213d50217702aa3657d6790211a6fdc4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/aroma1997/aroma1997sdimension_gen.cfg</URL>
+				<Path>config/aroma1997/aroma1997sdimension_gen.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5c878dcc1a4ea41f4f7d91b3d2898333</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Aroma1997Core" id="aroma1997core" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Aroma1997Core-1.12.2-2.0.0.0.b148.jar</URL>
+			<Size>397703</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b0c42c55bbcd57257bda6b53bc335888</MD5>
+			<Meta>
+				<credits>Code by Aroma1997, Textures by Schillaa</credits>
+				<description>This is basically a library used by most my other mods.</description>
+				<version>2.0.0.0.b148</version>
+				<url>http://www.minecraftforum.net/topic/1679684-</url>
+				<authors>Aroma1997, Schillaa</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/aroma1997/aroma1997core.cfg</URL>
+				<Path>config/aroma1997/aroma1997core.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>77927de615a6106320f9fa30f33698ae</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Astral Sorcery" id="astralsorcery" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/astralsorcery-1.12.2-1.8.5.jar</URL>
+			<Size>16332798</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>02b34f756360bc768f4f405d3e16b361</MD5>
+			<Meta>
+				<credits>HellFirePvP (code), wiiv (models &amp; textures)</credits>
+				<description>Magic mod that draws power from stars and their constellations</description>
+				<version>1.12.2-1.8.5</version>
+				<url>https://minecraft.curseforge.com/projects/astral-sorcery</url>
+				<authors>HellFirePvP, wiiv</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/astralsorcery.cfg</URL>
+				<Path>config/astralsorcery.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>442dc47a52d1a900ffcacd832039fc43</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/astralsorcery/treasure_shrine.cfg</URL>
+				<Path>config/astralsorcery/treasure_shrine.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f255b6f1655845fe289cbd91fd5bf951</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/astralsorcery/mineralis_ritual.cfg</URL>
+				<Path>config/astralsorcery/mineralis_ritual.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f255b6f1655845fe289cbd91fd5bf951</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/astralsorcery/aevitas_ore_perk.cfg</URL>
+				<Path>config/astralsorcery/aevitas_ore_perk.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f255b6f1655845fe289cbd91fd5bf951</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/astralsorcery/fluid_rarities.cfg</URL>
+				<Path>config/astralsorcery/fluid_rarities.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3709d9a9b4ac113a70dbb8dfda343eb5</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/AutoRegLib-1.3-16.jar</URL>
+			<Size>73087</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b8d401b23a3d6ba892313e21bc47addd</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Automatically item, block, and model registration for mods.</description>
+				<version>1.3-16</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+		</Module>
+		<Module name="Avaritia" id="Avaritia" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Avaritia-1.12-3.2.0.13-universal.jar</URL>
+			<Size>969430</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4422d43c0b3054b4cf86d2e73878972f</MD5>
+			<Meta>
+				<credits>Vazkii, Greg, brandon3055, vswe, Algorithm</credits>
+				<description>A mod to see how hard people are willing to grind.</description>
+				<version>3.2.0.13</version>
+				<url></url>
+				<authors>SpitefulFox, TTFTCUTS</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/mapwriter.cfg</URL>
+				<Path>config/mapwriter.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>87922655d9ab0bbc6cf5e9959d1aeac5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/avaritia.cfg</URL>
+				<Path>config/avaritia.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>dbc8ffd07e1c9bfff3ee4f56415a6289</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Avaritia Tweaks" id="avaritiatweaks" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/AvaritiaTweaks-1.12.2-1.1.jar</URL>
+			<Size>87589</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>053a736f3be3bdf305be52934f8c8151</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Enhances Avaritia to another level!</description>
+				<version>1.12.2-1.1</version>
+				<url>https://github.com/JackyyTV/AvaritiaTweaks</url>
+				<authors>Jackyy</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/AvaritiaTweaks.cfg</URL>
+				<Path>config/AvaritiaTweaks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3c11f339d7123258cb31b887082b1524</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="B.A.S.E" id="base" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/base-1.12.2-3.7.1.jar</URL>
+			<Size>519760</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c004b068e06f553661dd03521afc54d3</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Library Mod for the Team Acronym Coders</description>
+				<version>1.12.2-3.7.1</version>
+				<url>http://minecraft.curseforge.com/projects/b-a-s-e</url>
+				<authors>SkySom, Lanse505, Jared, EwyBoy</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/acronym/base/General.cfg</URL>
+				<Path>config/acronym/base/General.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ca95014560fdc94adbbc9c64aaebcff2</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Bad Wither No Cookie! Reloaded" id="badwithernocookiereloaded" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/badwithernocookiereloaded-1.12.2-2.12.jar</URL>
+			<Size>7117</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b50264029ca6b448026a3922f5131975</MD5>
+			<Meta>
+				<credits>Life, the universe, and everything!</credits>
+				<description>A simple mod to silence the Wither and Dragon broadcast sounds.</description>
+				<version>1.12.2-2.12</version>
+				<url></url>
+				<authors>droidicus, kreezxil</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/MapWriterBlockColourOverrides.txt</URL>
+				<Path>config/MapWriterBlockColourOverrides.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bf7a2eb09f2578b3f3aaa6ca39718316</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/badwithernocookie.cfg</URL>
+				<Path>config/badwithernocookie.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f2adf6675fdf3071c20894e2f961ad4f</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Baubles" id="baubles" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Baubles-1.12-1.5.2.jar</URL>
+			<Size>108450</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>944dec4ef3fbfd4d498d94a7047af201</MD5>
+			<Meta>
+				<credits>Special thanks to chicken_bones</credits>
+				<description>Adding a touch of bling to Minecraft</description>
+				<version>1.12-1.5.2</version>
+				<url>http://www.minecraftforum.net/topic/2535073-baubles</url>
+				<authors>Azanor</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/baubles.cfg</URL>
+				<Path>config/baubles.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5ca9c7547c3bdd5055d7ade4ba80998b</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="BD Lib" id="bdlib" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/bdlib-1.14.3.12-mc1.12.2.jar</URL>
+			<Size>1962731</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d2b8ba08414ac12737eb5ecbf92a19d9</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.14.3.12</version>
+				<url>bdew.net/mods/</url>
+				<authors>bdew</authors>
+			</Meta>
+		</Module>
+		<Module name="Bed Patch" id="bedpatch" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/bedpatch-2.2-1.12.2.jar</URL>
+			<Size>21613</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>336fea80502d84a94a04791c64f1b071</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Quick fix for the stuck in bed issue.</description>
+				<version>2.2-1.12.2</version>
+				<url></url>
+				<authors>Mordenkainen3141</authors>
+			</Meta>
+		</Module>
+		<Module name="Better Builder&apos;s Wands" id="betterbuilderswands" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar</URL>
+			<Size>75709</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>64763e14d31cdc21cedd4c4e85fbec73</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Wands that allow placing of multiple blocks at a time</description>
+				<version>0.11.1</version>
+				<url></url>
+				<authors>Portablejim</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/betterbuilderswands.cfg</URL>
+				<Path>config/betterbuilderswands.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e69abda13a172900c1500de952e7ad92</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="BetterFps-1.4.8" id="BetterFps" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/BetterFps-1.4.8.jar</URL>
+			<Size>155196</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d36f4d3c0f96e99a9a1ad2e8eeda1fc4</MD5>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/betterfps.json</URL>
+				<Path>config/betterfps.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9fafc11a63bc72f6d2cfa5a3e3ebd02b</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Binnie Core" id="binniecore" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/binnie-mods-1.12.2-2.5.0.154.jar</URL>
+			<Size>5808431</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>057b87a26d98cc5b2181327e4ce8c472</MD5>
+			<Meta>
+				<credits>Thanks to Sengir, MysteriousAges, Xizzzy and many others</credits>
+				<description>Base mod for Binnie&apos;s Mods, with lots of common code.</description>
+				<version>2.5.0.154</version>
+				<url>https://minecraft.curseforge.com/projects/binnies-mods</url>
+				<authors>Binnie</authors>
+			</Meta>
+		</Module>
+		<Module name="Blockcraftery" id="blockcraftery" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/blockcraftery-0.1.3.jar</URL>
+			<Size>65501</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>73efa2d54b753b62dc0b492b2467115a</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Blocks which can have textures applied to them.</description>
+				<version>0.1.3</version>
+				<url></url>
+				<authors>Elucent</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/BlockDrops/modVersions.txt</URL>
+				<Path>config/BlockDrops/modVersions.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>abb6e88109493e5c38e624117f6d2104</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/blockcraftery.cfg</URL>
+				<Path>config/blockcraftery.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>38f6eb4ec8ee888ad39473a1a68505e5</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Blood Magic: Alchemical Wizardry" id="bloodmagic" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/BloodMagic-1.12.2-2.2.10-93.jar</URL>
+			<Size>6763997</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f84bbdf620c26826540061bd79727871</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Rituals, spells, and more!</description>
+				<version>1.12.2-2.2.10-93</version>
+				<url>http://www.minecraftforum.net/topic/1899223-bloodmagic</url>
+				<authors>WayofTime, TehNut</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/bloodmagic/meteors/gold.json</URL>
+				<Path>config/bloodmagic/meteors/gold.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0e36d366c115a77d08afdadb1ffb02a3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/bloodmagic/meteors/iron.json</URL>
+				<Path>config/bloodmagic/meteors/iron.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ca6f17c0e76ee66f894ef05a171421ee</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/bloodmagic/meteors/diamond.json</URL>
+				<Path>config/bloodmagic/meteors/diamond.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c43601854c774811d2b2a384df539078</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/bloodmagic/bloodmagic.cfg</URL>
+				<Path>config/bloodmagic/bloodmagic.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>10cf4f3df1d444ea959c5f4fb1ecc104</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Bookshelf" id="bookshelf" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Bookshelf-1.12.2-2.3.539.jar</URL>
+			<Size>250383</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>89702f6f107a85e63b746a87bdbaed90</MD5>
+			<Meta>
+				<credits>ChickenBones, CyanideX, iLexiconn, SanAndreasP, VikeStep, jaredlll08</credits>
+				<description>Bookshelf is a core/library mod, which adds new features and tools into the game for other content creators to work with. The primary focus of this project is to make use of the combined strength of the modded community to create wonderful tools that everyone can use.</description>
+				<version>2.3.539</version>
+				<url>http://minecraft.curseforge.com/projects/bookshelf</url>
+				<authors>darkhax, lclc98</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/bookshelf.cfg</URL>
+				<Path>config/bookshelf.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a06a2ff933dc714835deaeddd89041ff</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Botania" id="botania" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Botania%20r1.10-354.jar</URL>
+			<Size>13599813</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5118bc6c51a76ba882c1665a77f78031</MD5>
+			<Meta>
+				<credits>Azanor, Flaxbeard, Futureazoo, Rorax, Lorc, Adubbz, WTFG33ks, Auric245524, MegaManki, Kain Vinosec, Kihira, mDiyo, Mikeemoo, ChickenBones, PowerCrystals, cpw</credits>
+				<description>Botania is a mod that adds nature magic to Minecraft</description>
+				<version>r1.10-354</version>
+				<url>http://www.botaniamod.net</url>
+				<authors>Vazkii, williewillus, wiiv, dylan4ever</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/botania.cfg</URL>
+				<Path>config/botania.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>235fc50d17676e6d32fffd5194991506</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Brandon&apos;s Core" id="brandonscore" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/BrandonsCore-1.12-2.4.0.152-universal.jar</URL>
+			<Size>735328</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>134ecd6cd2b047f6eda710c96c847586</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Brandon&apos;s Core is a library mod used by most of my mods. It is no longer a core mod as the name would suggest but it does still contain a lot of the core code used by my mods including but not limited to base classes for various tiles, blocks and items, A powerful modular gui system and a lot of other miscellaneous utilities.</description>
+				<version>1.12-2.4.0.152</version>
+				<url>http://minecraft.curseforge.com/projects/brandons-core</url>
+				<authors>brandon3055</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/brandon3055/DraconicEvolution.cfg</URL>
+				<Path>config/brandon3055/DraconicEvolution.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5d7d6341087d268abb386760abed0b6c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/brandon3055/ProjectIntelligence/options.json</URL>
+				<Path>config/brandon3055/ProjectIntelligence/options.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3bc36ba3d996c532212ba262c7634666</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/brandon3055/ProjectIntelligence/projectintelligence.xml</URL>
+				<Path>config/brandon3055/ProjectIntelligence/projectintelligence.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>650681c4dbc2643222bb9b7844f874d4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/brandon3055/ProjectIntelligence/ModDocs/Draconic%20Evolution/draconicevolution-en_US.xml</URL>
+				<Path>config/brandon3055/ProjectIntelligence/ModDocs/Draconic Evolution/draconicevolution-en_US.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>32e39f30c1f4db4080e1249fb5c806cd</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/brandon3055/ProjectIntelligence/manifest.json</URL>
+				<Path>config/brandon3055/ProjectIntelligence/manifest.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a31cdbaf85c3e219431cba8b99fa6ca4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/brandon3055/contributors.json</URL>
+				<Path>config/brandon3055/contributors.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0f05a38c8728996378f6484203bdad99</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/brandon3055/BrandonsCore.cfg</URL>
+				<Path>config/brandon3055/BrandonsCore.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1d558324f53d9a11ac2d266c04520bea</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/brandon3055/Custom%20Fusion%20Recipe%20Info.txt</URL>
+				<Path>config/brandon3055/Custom Fusion Recipe Info.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2913dc7b4161e4012cb01c4ee897f3d3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="BuildCraft Lib" id="buildcraftlib" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/buildcraft-7.99.16.jar</URL>
+			<Size>4395460</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3baa587bc3d927c82f26bd5cb39df764</MD5>
+			<Meta>
+				<credits>Created by SpaceToad</credits>
+				<description>Library mod used by buildcraft.</description>
+				<version>7.99.16-00282663b809</version>
+				<url>http://www.mod-buildcraft.com/</url>
+				<authors>SpaceToad, BuildCraft Team</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/buildcraft/main.cfg</URL>
+				<Path>config/buildcraft/main.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>be95f2eb631bf2bd9ef5c0d17e146dbf</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/buildcraft/detailed.properties</URL>
+				<Path>config/buildcraft/detailed.properties</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>477018b8c33698329e016171fc8bcaa8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/buildcraft/objects.cfg</URL>
+				<Path>config/buildcraft/objects.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8ace889d78613f3365fdf4010f0ba7e2</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Ceramics" id="ceramics" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Ceramics-1.12-1.3.4.jar</URL>
+			<Size>372993</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8df768fccf808e27ade2ae54177c7700</MD5>
+			<Meta>
+				<credits>Much of the code for clay buckets is based off the Forge universal bucket</credits>
+				<description>Adds a few early game items based on baking clay</description>
+				<version>1.12-1.3.4</version>
+				<url>https://minecraft.curseforge.com/projects/ceramics</url>
+				<authors>KnightMiner</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ceramics.cfg</URL>
+				<Path>config/ceramics.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6d6c484da5dec44d43adcec02dd41c3b</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Chameleon" id="chameleon" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Chameleon-1.12-4.1.3.jar</URL>
+			<Size>96859</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e42efa8f4fd42d2918128a826b740e98</MD5>
+			<Meta>
+				<credits>By jaquadro</credits>
+				<description>Shared code and render support for mods.  Used by jaquadro&apos;s mods.</description>
+				<version>1.12-4.1.3</version>
+				<url>http://www.jaquadro.com/</url>
+				<authors>jaquadro</authors>
+			</Meta>
+		</Module>
+		<Module name="Chisel" id="chisel" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Chisel-MC1.12.2-0.2.0.31.jar</URL>
+			<Size>4294434</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>853c56bd014423e424ecef6db2c1efb1</MD5>
+			<Meta>
+				<credits>AUTOMATIC_MAIDEN for the original mod,
+asie for porting to 1.7.2,
+and Pokenfenn/Cricket for continuing it in 1.7.
+This mod uses textures from the Painterly Pack: http://painterlypack.net/.</credits>
+				<description>Adds in tons of fancy blocks for decoration, crafted using the Chisel.</description>
+				<version>MC1.12.2-0.2.0.31</version>
+				<url>https://minecraft.curseforge.com/projects/chisel</url>
+				<authors>tterrag, Drullkus, minecreatr</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/chisel.cfg</URL>
+				<Path>config/chisel.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a7ef4b0f232207de4c571692b0ef846e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CLibrary" id="clib" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/CLib-1.0.2.31-universal.jar</URL>
+			<Size>129001</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b4ae3a02325d90d59b6ec12eeb106394</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Coded&apos;s Lib mod</description>
+				<version>1.0.2.31</version>
+				<url></url>
+				<authors>Coded</authors>
+			</Meta>
+		</Module>
+		<Module name="Clumps" id="clumps" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Clumps-3.0.0.jar</URL>
+			<Size>13778</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9dacb61f79448e2b1707a69e9f3f1bc9</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Clumps xp orbs together .</description>
+				<version>3.0.0</version>
+				<url></url>
+				<authors>Jaredlll08</authors>
+			</Meta>
+		</Module>
+		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/CodeChickenLib-1.12.2-3.1.6.339-universal.jar</URL>
+			<Size>658041</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>edd6dc7efd8fda77a073aa778d94c2c0</MD5>
+			<Meta>
+				<credits></credits>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
+				<version>3.1.6.339</version>
+				<url>http://chickenbones.net/Pages/links.html</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/codechicken/supporters.marker</URL>
+				<Path>config/codechicken/supporters.marker</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>81c71e584da4aefd08e16d3e247e6885</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/codechicken/supporters.json</URL>
+				<Path>config/codechicken/supporters.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>88aff090945abcaec8280932e91f4117</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CoFH Core" id="cofhcore" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/CoFHCore-1.12.2-4.3.10.5-universal.jar</URL>
+			<Size>764904</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5e6a69216fa0e812911a51ac0af1358c</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Required for all CoFH Mods. Also provides some customization options for Minecraft.</description>
+				<version>4.3.10.5</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/core/friends.cfg</URL>
+				<Path>config/cofh/core/friends.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>81051bcc2cf1bedf378224b0a93e2877</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/core/common.cfg</URL>
+				<Path>config/cofh/core/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>378ff13e41abec504e5227b557c0cd44</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/core/client.cfg</URL>
+				<Path>config/cofh/core/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>2f512a877d551f9842878bb5fe514f65</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CoFH World" id="cofhworld" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/CoFHWorld-1.12.2-1.1.1.12-universal.jar</URL>
+			<Size>399333</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b6bb4654ce07e8842b632fbe327ef5fe</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Provides advanced and highly customizable world generation capabilities.</description>
+				<version>1.1.1.12</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/world/00_minecraft.json</URL>
+				<Path>config/cofh/world/00_minecraft.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5aa56076d0740cda16087eb2787dc318</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/world/config.cfg</URL>
+				<Path>config/cofh/world/config.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4bcc5270d4dfb7e357dc6f24fb2b5570</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CommonCapabilities" id="commoncapabilities" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/CommonCapabilities-1.12-1.4.0.jar</URL>
+			<Size>77016</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8d99dc5e5df88b6be61a3d12a15e9e36</MD5>
+			<Meta>
+				<credits>kroeserr</credits>
+				<description>Forge Capabilities that can be shared by multiple mods</description>
+				<version>1.12-1.4.0</version>
+				<url>https://github.com/CyclopsMC/CommonCapabilities</url>
+				<authors>rubensworks (aka kroeserr)</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/commoncapabilities.cfg</URL>
+				<Path>config/commoncapabilities.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a61cfe03bb98c6dacabb0a84926059f0</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Controlling" id="controlling" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Controlling-3.0.6.jar</URL>
+			<Size>26034</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0d9a0429c72bc1c06358f1166bdd8c59</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Gives people more Control of the key binding screen.</description>
+				<version>3.0.6</version>
+				<url></url>
+				<authors>Jaredlll08</authors>
+			</Meta>
+		</Module>
+		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/CraftingTweaks_1.12.2-8.1.8.jar</URL>
+			<Size>97746</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3e1ef831a64c2d926dc7bf4a47bf868a</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>Allows you to rotate or clear the crafting matrix by the press of a button, in any (supported) crafting window.</description>
+				<version>8.1.8</version>
+				<url>http://balyware.com</url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/craftingtweaks.cfg</URL>
+				<Path>config/craftingtweaks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1e3a51441c71ae714069a2fc69ef77b3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/CraftTweaker2-1.12-4.1.6.jar</URL>
+			<Size>1110620</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f4902745e65c66c5fc107fb000a56308</MD5>
+			<Meta>
+				<credits>Created By StanHebben and Jaredlll08</credits>
+				<description>Customize your minecraft experience!</description>
+				<version>1.12-4.1.6</version>
+				<url>http://minetweaker3.powerofbytes.com</url>
+				<authors>StanHebben, Jaredlll08</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/oretweaker.cfg</URL>
+				<Path>config/oretweaker.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d9f96538b6a18c6f61f0d9f405c1ccae</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CTM" id="ctm" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/CTM-MC1.12-0.2.3.12.jar</URL>
+			<Size>181856</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f67d95bb874571c2b77517654593b23f</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows resource packs to add connected textures, emissive rendering, and much more.</description>
+				<version>MC1.12-0.2.3.12</version>
+				<url>https://minecraft.curseforge.com/projects/ctm</url>
+				<authors>tterrag, Drullkus, minecreatr</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ctm.cfg</URL>
+				<Path>config/ctm.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9ada28a3eafd037ad08564012ee2fbe7</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Cucumber Library" id="cucumber" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/cucumber-1.12-1.1.0.jar</URL>
+			<Size>103120</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>99668c737d4531deecfdf41df20ddb60</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A library of shared code and functionality used by my mods.</description>
+				<version>1.1.0</version>
+				<url>https://minecraft.curseforge.com/projects/cucumber</url>
+				<authors>BlakeBr0</authors>
+			</Meta>
+		</Module>
+		<Module name="Custom Main Menu" id="custommainmenu" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/CustomMainMenu-MC1.12.2-2.0.8.jar</URL>
+			<Size>176289</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9b80cdafc4521d124dc87fef9ee3bbcd</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows you to edit the mainmenu using json</description>
+				<version>2.0.8</version>
+				<url></url>
+				<authors>lumien</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/CustomMainMenu/mainmenu.json</URL>
+				<Path>config/CustomMainMenu/mainmenu.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7ff7e3cf124657a435a564bba1a55d3c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/CyclopsCore-1.12.2-0.11.5.jar</URL>
+			<Size>817828</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>13e9d827d2fb2dcc82a19879270f4de6</MD5>
+			<Meta>
+				<credits>kroeserr, _EeB_</credits>
+				<description>Coremod for EvilCraft, Integrated Dynamics and others.</description>
+				<version>1.12.2-0.11.5</version>
+				<url>https://minecraft.curseforge.com/projects/cyclops-core</url>
+				<authors>rubensworks (aka kroeserr), immortaleeb (aka _EeB_)</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cyclopscore.cfg</URL>
+				<Path>config/cyclopscore.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ecdb6b73d78a70c050382f8fc0b129b4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/malisiscore.cfg</URL>
+				<Path>config/malisiscore.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>95033c96d58a32db8f3149d06d8a4c71</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/BlockDrops/config.cfg</URL>
+				<Path>config/BlockDrops/config.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ee19f16ccc24ab7091ee805cc1e26bcb</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Dark Utilities" id="darkutils" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DarkUtils-1.12.2-1.8.207.jar</URL>
+			<Size>417217</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>935d7501cb058301af121aca2eeb88d9</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A mod that adds a bunch of new utilities to the game.</description>
+				<version>1.8.207</version>
+				<url>http://www.darkhax.net</url>
+				<authors>Darkhax</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/darkutils.cfg</URL>
+				<Path>config/darkutils.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b993997d1a8a5339e55418c845d3de37</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/Mercurius.cfg</URL>
+				<Path>config/Mercurius.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>016ded296bde55d512d84383e700c747</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Default Options" id="defaultoptions" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DefaultOptions_1.12.2-9.2.5.jar</URL>
+			<Size>12075</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d86d6d99630cdb17a1fe8a2b103d3f92</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>A way for modpacks to ship a default (key) configuration without having to include an options.txt file.</description>
+				<version>9.2.5</version>
+				<url>http://blay09.net</url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/defaultoptions/keybindings.txt</URL>
+				<Path>config/defaultoptions/keybindings.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>03d407964ada735ab27343706a24672c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/defaultoptions/options.txt</URL>
+				<Path>config/defaultoptions/options.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e2d97eb15867afdae8fd5643668ac732</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Diet Hopper" id="diethopper" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/diethopper-1.1.jar</URL>
+			<Size>5222</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1d616cb7b25de3ae44f06e26d18bd07e</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Slims down the bounding box of hoppers to allow you to select objects behind it.</description>
+				<version>1.1</version>
+				<url></url>
+				<authors>RWTema</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/worldstripper.cfg</URL>
+				<Path>config/worldstripper.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>12ec619f6791cf6646f38728180c9661</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/minetogether.cfg</URL>
+				<Path>config/minetogether.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9381fc81729c3c9ce3a4cc6eca02f607</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="DiscordSuite" id="discordsuite" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DiscordSuite-2.0.0.jar</URL>
+			<Size>631077</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>49de3387c15d6f657ed8caa39541eee2</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Discord Integration.</description>
+				<version>2.0.0</version>
+				<url></url>
+				<authors>Coded</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/DiscordSuite.cfg</URL>
+				<Path>config/DiscordSuite.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>43f9a0d73297dd2a832db129008e638c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Dismantler" id="dismantler" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/dismantler-0.1.jar</URL>
+			<Size>20464</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8c65771a06daf994daa3cf05c666a8cf</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A Tool used for dismantling multiblock structures in one go.</description>
+				<version>0.1</version>
+				<url></url>
+				<authors>BloodWorkXGaming</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/dismantler.cfg</URL>
+				<Path>config/dismantler.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>72bbf0c10063485f0bf7363bc5b08a02</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Draconic Evolution" id="draconicevolution" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Draconic-Evolution-1.12-2.3.10.284-universal.jar</URL>
+			<Size>5570956</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>33cace44df89bc8c80e9dfcaa4446388</MD5>
+			<Meta>
+				<credits></credits>
+				<description>This is a mod that was originally made for the Tolkiencraft mod pack but it has since evolved way beyond that. This mod adds a lot of extremely expensive and powerful end game items as well as a lot of random useful bits and pieces.</description>
+				<version>1.12-2.3.10.284</version>
+				<url>http://www.brandon3055.com/</url>
+				<authors>brandon3055</authors>
+			</Meta>
+		</Module>
+		<Module name="Elevator Mod" id="elevatorid" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ElevatorMod-1.12.2-1.3.6.jar</URL>
+			<Size>98152</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0e07403950916ae3930837ed7e7fb795</MD5>
+			<Meta>
+				<credits>OpenBlocks Team</credits>
+				<description>OpenBlocks&apos; Elevator Block</description>
+				<version>1.12.2-1.3.6</version>
+				<url>https://minecraft.curseforge.com/projects/openblocks-elevator</url>
+				<authors>VsnGamer</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ElevatorMod/ElevatorMod.cfg</URL>
+				<Path>config/ElevatorMod/ElevatorMod.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>89109ee981c9135f7f0d0caa4115694f</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="EluLib" id="elulib" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/elulib-0.1.12.jar</URL>
+			<Size>305851</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>473c5cc42c88e61db013eab03e39016a</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Miscellaneous utility mod.</description>
+				<version>0.1.12</version>
+				<url></url>
+				<authors>Elucent</authors>
+			</Meta>
+		</Module>
+		<Module name="Ender IO" id="enderio" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/EnderIO-1.12.2-5.0.20.jar</URL>
+			<Size>5849460</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>247c1ab771a2dfd64ca2bb93519e489d</MD5>
+			<Meta>
+				<credits>By CrazyPants, with the help of many</credits>
+				<description>Compact conduits, painted things and all sorts of stuff and bling.</description>
+				<version>5.0.20</version>
+				<url>http://enderio.com</url>
+				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/enderioconduits.cfg</URL>
+				<Path>config/enderio/enderioconduits.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4e5997eb266154a8e64ef396b4519ad8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/enderiomachines.cfg</URL>
+				<Path>config/enderio/enderiomachines.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>67f329642b1abf189fa9c78c539e43e3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/enderiopowertools.cfg</URL>
+				<Path>config/enderio/enderiopowertools.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2dc529ebd2b08b0f9189351fc7d2d815</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/painter_paint_sources_user.xml</URL>
+				<Path>config/enderio/painter_paint_sources_user.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d8eedf3027847c792cb64f86fd46e2d5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/EnderIO.cfg</URL>
+				<Path>config/enderio/EnderIO.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0f4c5a0a8c8e5ad9a211af9ad39b1621</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/sagmill_vanilla2modded.xml</URL>
+				<Path>config/enderio/recipes/sagmill_vanilla2modded.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d56b186ed72456a67a4f05ec7cdd9275</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/sagmill.xml</URL>
+				<Path>config/enderio/recipes/sagmill.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>425b4f98a7ff20efa7a4862a5944ed50</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/items.xml</URL>
+				<Path>config/enderio/recipes/items.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>71216008cfaffc9dc16076095d33297f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/sagmill_metals.xml</URL>
+				<Path>config/enderio/recipes/sagmill_metals.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a32472baa72a73694a3aec1067fb4441</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/powertools.xml</URL>
+				<Path>config/enderio/recipes/powertools.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>21a27c08f1237c8d0a020eafb413865c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/sagmill_ores.xml</URL>
+				<Path>config/enderio/recipes/sagmill_ores.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4017d530188ebcfa2613b83fed31aa3c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/balls.xml</URL>
+				<Path>config/enderio/recipes/balls.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e90a740ebd345d2c1a504a796c04b54b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/user/recipes.xsd</URL>
+				<Path>config/enderio/recipes/user/recipes.xsd</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>45b56d2c265cceb6a27d483a7b8354f2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/user/user_recipes.xml</URL>
+				<Path>config/enderio/recipes/user/user_recipes.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c136c6fa29fade8bed994d73184fb9db</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/vat.xml</URL>
+				<Path>config/enderio/recipes/vat.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>db7750780c98385259de8d0bd15b0f06</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/sagmill_vanilla.xml</URL>
+				<Path>config/enderio/recipes/sagmill_vanilla.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>cddb7effb7c9530d913695f161d89c63</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/spawner.xml</URL>
+				<Path>config/enderio/recipes/spawner.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0bbda4ded5854fe06461716297de99e6</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/integration-forestry.xml</URL>
+				<Path>config/enderio/recipes/integration-forestry.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a6cabb242b1095cb488d5d24ff4394ee</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/aliases.xml</URL>
+				<Path>config/enderio/recipes/aliases.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>987221f5e663e5b3fdd59fcba83eba65</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/examples/conduits_easy_recipes.xml</URL>
+				<Path>config/enderio/recipes/examples/conduits_easy_recipes.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4cb5de8d267fc384883cee29f736c469</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/examples/easy_recipes.xml</URL>
+				<Path>config/enderio/recipes/examples/easy_recipes.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f07297af9f1a6ff1b0438de8efc16bb0</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/examples/broken_spawner.xml</URL>
+				<Path>config/enderio/recipes/examples/broken_spawner.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4c6bc006a0b546ecc4080be592f0a5b7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/examples/powertools_easy_recipes.xml</URL>
+				<Path>config/enderio/recipes/examples/powertools_easy_recipes.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>454da544ed952faaa0d4f48184d012eb</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/examples/hard_recipes.xml</URL>
+				<Path>config/enderio/recipes/examples/hard_recipes.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>845f56c44f347a5e7b6a2aa2395bdfa4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/examples/conduits_hard_recipes.xml</URL>
+				<Path>config/enderio/recipes/examples/conduits_hard_recipes.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9b727f1e3ceb242ec09274dd16e9984a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/examples/machines_easy_recipes.xml</URL>
+				<Path>config/enderio/recipes/examples/machines_easy_recipes.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>494e6ce9711bf0911bb882a90aebb816</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/examples/peaceful.xml</URL>
+				<Path>config/enderio/recipes/examples/peaceful.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>141299724adad19d120733d5e3f2c955</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/examples/recipes.xsd</URL>
+				<Path>config/enderio/recipes/examples/recipes.xsd</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>45b56d2c265cceb6a27d483a7b8354f2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/sagmill_modded.xml</URL>
+				<Path>config/enderio/recipes/sagmill_modded.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4ba8fcc07e25a1e7cf36483f1868dd55</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/base.xml</URL>
+				<Path>config/enderio/recipes/base.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a4ea765be0d8dce16d10151f6b0d1d7a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/machines.xml</URL>
+				<Path>config/enderio/recipes/machines.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b3001b7e149e21701a5cfeef1d33aafe</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/materials.xml</URL>
+				<Path>config/enderio/recipes/materials.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>79dbf4a89a3540ccc25c68cb94371244</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/recipes.xsd</URL>
+				<Path>config/enderio/recipes/recipes.xsd</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>45b56d2c265cceb6a27d483a7b8354f2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/enchanter.xml</URL>
+				<Path>config/enderio/recipes/enchanter.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>cc432ecd81dc8bc644617ef919ed7db9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/recipes/conduits.xml</URL>
+				<Path>config/enderio/recipes/conduits.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4b73dd310c16e59dc1321bdcb4b9559e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/painter_paint_sources_core.xml</URL>
+				<Path>config/enderio/painter_paint_sources_core.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1a30253f2dba70ca5cdc6afd6d7e0a2b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderio/enderiointegrationforestry.cfg</URL>
+				<Path>config/enderio/enderiointegrationforestry.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>db35e26d6a92a4c61bf7fea6ea4ee123</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="EnderCore" id="endercore" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/EnderCore-1.12.2-0.5.18.jar</URL>
+			<Size>597955</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ba35c1ef5133225f063beeaa7edb8079</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Library mod used by EnderIO, EnderZoo, and others</description>
+				<version>1.12.2-0.5.18</version>
+				<url>http://enderio.com</url>
+				<authors>tterrag, CrazyPants, HenryLoenwind</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/eleccore.cfg</URL>
+				<Path>config/eleccore.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0b64008cd7f055653fff18f97e09273f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/endercore/endercore.cfg</URL>
+				<Path>config/endercore/endercore.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>efa48f3918d35433932a4280db13c32e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/endercore/cropconfig.json</URL>
+				<Path>config/endercore/cropconfig.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4d5fe6b6e730947d24068daa34d50a1c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="EnderStorage" id="enderstorage" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/EnderStorage-1.12.2-2.4.2.126-universal.jar</URL>
+			<Size>221404</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ffc1d43ab70c751a90b343fdd826ea73</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Stores your stuff in the END!</description>
+				<version>2.4.2.126</version>
+				<url>http://www.minecraftforum.net/topic/909223</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/enderstorage.cfg</URL>
+				<Path>config/enderstorage.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3e8655e571813ed42bd8f59314e584e8</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="EnderTanks" id="endertanks" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/endertanks-1.12.0-1.6.5.jar</URL>
+			<Size>249638</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3ba0d67c351d01be59bf475687e64cb1</MD5>
+			<Meta>
+				<credits>Art: Fruzstrated</credits>
+				<description>Store liquids inside a subspace pocket located in the End.</description>
+				<version>1.12.0-1.6.5</version>
+				<url>http://tomkinsbros.blogspot.ca/</url>
+				<authors>ShetiPhian</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/endertanks.cfg</URL>
+				<Path>config/endertanks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2985a11841c0e1037c9f85824e94b035</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Environmental Tech" id="environmentaltech" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/environmentaltech-1.12.2-2.0.9c.jar</URL>
+			<Size>790640</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f6cafb05d2480d81a5bbec805c10c2bd</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Environmental Tech is a mod containing a vast selection of multiblock machines. Ranging from multiblock solar panels, lightning rods to multiblock Void mining machines. This mod is still in the very early stages and has a lot more to come.</description>
+				<version>1.12.2-2.0.9c</version>
+				<url>http://minecraft.curseforge.com/projects/environmental-tech</url>
+				<authors>ValkyrieofNight</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/botanic/tier_6.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/botanic/tier_6.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>33b7646346b160043e9e4619a82666a7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/botanic/tier_1.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/botanic/tier_1.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>33b7646346b160043e9e4619a82666a7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/botanic/tier_3.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/botanic/tier_3.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>33b7646346b160043e9e4619a82666a7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/botanic/tier_2.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/botanic/tier_2.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>33b7646346b160043e9e4619a82666a7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/botanic/tier_5.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/botanic/tier_5.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>33b7646346b160043e9e4619a82666a7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/botanic/tier_4.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/botanic/tier_4.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>33b7646346b160043e9e4619a82666a7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/resource/tier_6.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/resource/tier_6.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d2614ee75819bb6c992675ebbf40bf64</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/resource/tier_1.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/resource/tier_1.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>591f605a5314e9ce619d45f0e21dad88</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/resource/tier_3.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/resource/tier_3.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>65e89ce40a22186074b09159a24c542c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/resource/tier_2.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/resource/tier_2.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c4e4fef3deb2b4800f98244f432105e9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/resource/tier_5.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/resource/tier_5.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>445e0e18caea452dfcb5f570d82d6351</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/resource/tier_4.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/resource/tier_4.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c10dfa35155d233c9258fb042e4e3e70</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/ore/tier_6.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/ore/tier_6.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3d5f0fdda0ddd96ecf75f100a6cb44b4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/ore/tier_1.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/ore/tier_1.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5d93d4a8cb2d03e02a68516e8cb205ff</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/ore/tier_3.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/ore/tier_3.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>be3dbf82ed12f06d115cdcabc64fcc37</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/ore/tier_2.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/ore/tier_2.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ccab16bf4f5a2ce9e09c0458be0e878d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/ore/tier_5.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/ore/tier_5.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7e15258608d50c2dc8e1af9f396f80a9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/multiblocks/void_miner/ore/tier_4.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/ore/tier_4.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fb378c11ad7de6db17d90f8bf3701d0f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/main.cfg</URL>
+				<Path>config/environmentaltech/main.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1d337d4649e790a93de05df5cb0f350e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/environmentaltech/etlunar/main.cfg</URL>
+				<Path>config/environmentaltech/etlunar/main.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1eaef67aa57cd30136c8b979dae60896</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="ET Lunar" id="etlunar" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/etlunar-1.12.2-2.0.9a.jar</URL>
+			<Size>53883</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3d474785c8a85ed526bf3e33fecfbfc5</MD5>
+			<Meta>
+				<credits></credits>
+				<description>ET Lunar is an addon for Environmental Tech adding some lunar themed multiblocks.</description>
+				<version>1.12.2-2.0.8a</version>
+				<url></url>
+				<authors>ValkyrieofNight</authors>
+			</Meta>
+		</Module>
+		<Module name="Extra Rails" id="ExtraRails" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ExtraRails-1.12-1.3.0.jar</URL>
+			<Size>53565</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c8e2e99c7559b775283f867e8e436205</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Additional Minecart rails.</description>
+				<version>1.12-1.3.0</version>
+				<url>http://github.com/shadowfacts/ExtraRails</url>
+				<authors>Shadowfacts</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/shadowfacts/ExtraRails.cfg</URL>
+				<Path>config/shadowfacts/ExtraRails.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>57f47bedf6b5d95a3eb8a27c201d3cc5</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Extra Utilities 2" id="extrautils2" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/extrautils2-1.12-1.7.5.jar</URL>
+			<Size>2937240</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>26fa2d838d1b25a6248dbc35dab0ece2</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A bunch of useful things.</description>
+				<version>${version}</version>
+				<url></url>
+				<authors>RWTema</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/extrautils2.cfg</URL>
+				<Path>config/extrautils2.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>78d28e731dbfe57e8ec36b50b47919be</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Extreme Reactors" id="bigreactors" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ExtremeReactors-1.12.2-0.4.5.48.jar</URL>
+			<Size>1085143</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e83c3f177db7b64da358499181445f8f</MD5>
+			<Meta>
+				<credits>powercrystals, skyboy, King_Lemming, &amp; Calclavia for example code</credits>
+				<description>Adds large, multiblock power generation machines to Minecraft. Compatible with Redstone Flux (RF) and Tesla power. This is a port of the 1.7.10 mod Big Reactors from ErogenousBeef</description>
+				<version>1.12.2-0.4.5.48</version>
+				<url>http://zerono.it/extreme-reactors</url>
+				<authors>ErogenousBeef, ZeroNoRyouki, ABookFreak</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/Extreme%20Reactors/Extreme%20Reactors.cfg</URL>
+				<Path>config/Extreme Reactors/Extreme Reactors.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>54e03f50faa878905ba211177aed5f1e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="FastWorkbench" id="fastbench" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/FastWorkbench-1.12.2-1.3.1.jar</URL>
+			<Size>22842</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>81df9ead861ecd82a3f0f6914e5f8a07</MD5>
+			<Meta>
+				<credits></credits>
+				<description>1 fast boi</description>
+				<version>1.12.2-1.3.1</version>
+				<url></url>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/fastbench.cfg</URL>
+				<Path>config/fastbench.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e08e5e7431231f05423d1cb3f8906698</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Flux Networks" id="fluxnetworks" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/fluxnetworks-1.12.2-3.0.8.jar</URL>
+			<Size>491085</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>41ed41703c36ddea0b611252ec23376d</MD5>
+			<Meta>
+				<credits>Created by Ollie Lansdell</credits>
+				<description>Create Wireless Energy Networks</description>
+				<version>1.12.2-3.0.8</version>
+				<url></url>
+				<authors>Ollie Lansdell</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/flux_networks.cfg</URL>
+				<Path>config/flux_networks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0db0475fb854044d78efba2af3f697c6</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="FoamFix" id="foamfix" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/foamfix-0.9.9-1.12.2-anarchy.jar</URL>
+			<Size>206433</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7180149ffe7d7bb040914ae4232bf8a3</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons.</description>
+				<version>@VERSION@</version>
+				<url>http://asie.pl/Projects/Minecraft/Mods/FoamFix</url>
+				<authors>asiekierka</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/foamfix.cfg</URL>
+				<Path>config/foamfix.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>38e4e7ef15db4a1afcf13979627dceee</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Forestry" id="forestry" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/forestry_1.12.2-5.8.0.259.jar</URL>
+			<Size>4675073</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7b52ea05169f700e0218af22b4e55249</MD5>
+			<Meta>
+				<credits>mistaqur, Binnie, CovertJaguar, MysteriousAges, Nirek, Nedelosk</credits>
+				<description>Trees, bees and more.</description>
+				<version>5.8.0.259</version>
+				<url>http://forestry.sengir.net/</url>
+				<authors>SirSengir, mezz</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/extrabees/main.conf</URL>
+				<Path>config/forestry/extrabees/main.conf</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a96ff9b06c7c22a5f0f8085f601fa2e8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/farm.cfg</URL>
+				<Path>config/forestry/farm.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>cdab973d0c19217ff2d2ed004bdf99b0</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/binnie-mods.conf</URL>
+				<Path>config/forestry/binnie-mods.conf</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a667ef7ff5683f9804cb16b0cebfd946</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/plugins.cfg</URL>
+				<Path>config/forestry/plugins.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>edacc38b415200706022797fe80a2883</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/botany</URL>
+				<Path>config/forestry/botany</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>86b7f84b9c8286f68c85f3a7ecfb7c02</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/binniecore/main.conf</URL>
+				<Path>config/forestry/binniecore/main.conf</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>511cac229dc877137c3c3c4a2e852db2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/gamemodes/EASY.cfg</URL>
+				<Path>config/forestry/gamemodes/EASY.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e08d37a4cbd3e391c8030e3b4b46f4bb</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/gamemodes/NORMAL.cfg</URL>
+				<Path>config/forestry/gamemodes/NORMAL.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ff33f1ea1bd4ab0d846388cb4c5f3acf</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/gamemodes/HARD.cfg</URL>
+				<Path>config/forestry/gamemodes/HARD.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>900d14cf7f42dfba95acb0b2588c2257</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/gamemodes/OP.cfg</URL>
+				<Path>config/forestry/gamemodes/OP.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8a621c94354e3d972f2f436ff2c80c86</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/extratrees</URL>
+				<Path>config/forestry/extratrees</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>94995c1ceef0229da5511bbf30d79cc8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/backpacks.cfg</URL>
+				<Path>config/forestry/backpacks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9df2fe2e1289d24822dc509ecb995e9e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/modules.cfg</URL>
+				<Path>config/forestry/modules.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>285126d2032149ead560002964c8185a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/common.cfg</URL>
+				<Path>config/forestry/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>59f486ac8e0e1c4e982ed06725e43446</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/fluids.cfg</URL>
+				<Path>config/forestry/fluids.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c8123f0cb10acde6fc263cc8b208411e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/apiculture.cfg</URL>
+				<Path>config/forestry/apiculture.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>340ecc7a11004c07f6dee4a06c77fe03</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forestry/lepidopterology.cfg</URL>
+				<Path>config/forestry/lepidopterology.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9370a78b7b1f257a5a21a38e00289399</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="FTB Utilities" id="ftbutilities" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/FTBUtilities-5.0.0.11.jar</URL>
+			<Size>339747</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1b390b57d56055a00cfb4f1535c11052</MD5>
+			<Meta>
+				<credits></credits>
+				<description>FTBUtilities</description>
+				<version>5.0.0.11</version>
+				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
+				<authors>LatvianModder</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ftbutilities.cfg</URL>
+				<Path>config/ftbutilities.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>69f542bf578cc906c6d6706aa9bbead0</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="FTBLib" id="ftblib" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/FTBLib-5.0.0.14.jar</URL>
+			<Size>705005</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ed06c05ef744df02b178cabb7ff6a9d3</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>5.0.0.14</version>
+				<url>http://minecraft.curseforge.com/projects/ftblib</url>
+				<authors>LatvianModder</authors>
+			</Meta>
+		</Module>
+		<Module name="Fullscreen Windowed" id="fw" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/FullscreenWindowed-1.12-1.6.0.jar</URL>
+			<Size>18396</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c7679200bdf1f6cb71361555407a4c7f</MD5>
+			<Meta>
+				<credits>To all the documentation out there, Thank You. Credits to MrWhalerus for 1.12 update</credits>
+				<description>Activates fullscreen windowed mode for Minecraft</description>
+				<version>1.6.0</version>
+				<url>https://github.com/hancin/Fullscreen-Windowed-Minecraft</url>
+				<authors>Hancin</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/fw.cfg</URL>
+				<Path>config/fw.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>28f24543b69c8af8ec690959ebd54e13</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="GenDustry" id="gendustry" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/gendustry-1.6.5.8-mc1.12.2.jar</URL>
+			<Size>1856305</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>81b4720925043e1b4c198cabca9bd87f</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.6.5.8</version>
+				<url>bdew.net/mods/</url>
+				<authors>bdew</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/gendustry/client.config</URL>
+				<Path>config/gendustry/client.config</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>463c58f9a9012a3a63d7619d4d859558</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/gendustry/readme.txt</URL>
+				<Path>config/gendustry/readme.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a31c7deefb9985e7e6338ab2ace29a2c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Greg&apos;s SG Craft" id="SGCraft" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/SGCraft-1.14.2-mc1.12.2.jar</URL>
+			<Size>1174809</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f260e437bdf88ef9cf3ee0a1a1affa24</MD5>
+			<Meta>
+				<credits></credits>
+				<description>SG-1 stargates and other stuff.</description>
+				<version>1.14.2-mc1.12.2</version>
+				<url>http://www.cosc.canterbury.ac.nz/greg.ewing/minecraft/mods/SGCraft/</url>
+				<authors>Greg Ewing</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/sgcraft.cfg</URL>
+				<Path>config/sgcraft.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0fccf8f512ca8d9a6c6509c27d87f32c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Guide-API" id="guideapi" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Guide-API-1.12-2.1.5-60.jar</URL>
+			<Size>167040</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e8513d27bb9d9ab00b47dd5065189687</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Simple mod guide creation.</description>
+				<version>1.12-2.1.5-60</version>
+				<url></url>
+				<authors>Tombenpotter, TehNut</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/Guide-API/Guide-API.cfg</URL>
+				<Path>config/Guide-API/Guide-API.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7953be5633c67f3427f3b6de9c1b4b50</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Hammer Core" id="hammercore" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/HammerCore-1.12.2-1.9.9.5.8.jar</URL>
+			<Size>1477712</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c2442e26555047df93965a3dd72d1dfe</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Core used by most of Pengu&apos;s Mods.</description>
+				<version></version>
+				<url></url>
+				<authors>APengu</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/hammercore.cfg</URL>
+				<Path>config/hammercore.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>502494b7287a9eaead90a06d04606aff</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Harvest" id="Harvest" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Harvest-1.12-1.2.6-18.jar</URL>
+			<Size>17269</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>540653c37e350a3f928ba176896e44c5</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Right click crop harvesting</description>
+				<version>1.12-1.2.6-18</version>
+				<url>http://tehnut.info/</url>
+				<authors>TehNut</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/gravestone.cfg</URL>
+				<Path>config/gravestone.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1f4a382dd9f5feb4ee761996d4a7020a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/harvest_config.json</URL>
+				<Path>config/harvest_config.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c8ebddfad48bb39a95894c54614b5cf5</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ImmersiveEngineering-0.12-80.jar</URL>
+			<Size>5979255</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d67baa582cf8ddc334d6fa5a4508a57e</MD5>
+			<Meta>
+				<credits>All the great other Git Contributors, and the nerds on IRC!</credits>
+				<description>A tech based mod focused on realism.</description>
+				<version>0.12-80</version>
+				<url>https://github.com/BluSunrize/ImmersiveEngineering</url>
+				<authors>BluSunrize, Damien A.W. Hazard</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/immersiveengineering.cfg</URL>
+				<Path>config/immersiveengineering.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8336362b8555bf905d3f01d6ba20ad40</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Immersive Petroleum" id="immersivepetroleum" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/immersivepetroleum-1.12.2-1.1.9.jar</URL>
+			<Size>906018</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>57ba127778e579d10d705f9f8359d2e0</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds oil and oil processing features to Immersive Engineering.</description>
+				<version>1.1.9</version>
+				<url>https://github.com/Flaxbeard/ImmersivePetroleum</url>
+				<authors>Flaxbeard</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/immersivepetroleum.cfg</URL>
+				<Path>config/immersivepetroleum.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5de10f18a2c45a3c33f2e3e8d87c9bfa</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="ImmersiveEngineering-0.12-80-core" id="ImmersiveEngineering-.--core" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ImmersiveEngineering-0.12-80-core.jar</URL>
+			<Size>7604</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>26ad74b7e18bc79c6e5aaded123281be</MD5>
+		</Module>
+		<Module name="Industrial Wires" id="industrialwires" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/IndustrialWires-1.6-25.jar</URL>
+			<Size>695545</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6e8e839fedba0e6f308b1f5eabf19b66</MD5>
+			<Meta>
+				<credits>BluSunrize and Mr. Damien Hazard for Immersive Engineering, the IC2 team for IC2</credits>
+				<description>An addon for IndustrialCraft2 and Immersive Engineering that adds IE wires to transfer IC2 power and other fun things!</description>
+				<version>1.6-25</version>
+				<url></url>
+				<authors>malte0811</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/industrialwires.cfg</URL>
+				<Path>config/industrialwires.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3b5f6190cbaf611a87835d0bdcfd636f</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="IndustrialCraft 2" id="ic2" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/industrialcraft-2-2.8.73-ex112.jar</URL>
+			<Size>7982832</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ed584cbfb3dcc4e9fbe91acec623a93b</MD5>
+			<Meta>
+				<credits>Contributions by many people</credits>
+				<description>Industrial age themed expansion for Minecraft.</description>
+				<version>2.8.73-ex112</version>
+				<url>http://www.industrial-craft.net</url>
+				<authors>Alblaka, Player, RichardG, Thunderdark, GregoriusT, alexthesax, Drashian, Elementalist, Feanturi, Lurch1985, SirusKing, tahu44, Aroma1997, estebes, Chocohead</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ic2.ini</URL>
+				<Path>config/ic2.ini</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>88921184699675b583d54d1ed0cd2d58</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Integrated Dynamics" id="integrateddynamics" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/IntegratedDynamics-1.12.2-0.11.9.jar</URL>
+			<Size>2708665</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c2cc9a6a447dd4f69b3bf2cef1b5d8ab</MD5>
+			<Meta>
+				<credits>kroeserr, Yulife (textures)</credits>
+				<description>Take full and automated control of your appliances.</description>
+				<version>1.12.2-0.11.9</version>
+				<url>https://minecraft.curseforge.com/projects/integrated-dynamics</url>
+				<authors>rubensworks (aka kroeserr)</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/integrateddynamicscompat.cfg</URL>
+				<Path>config/integrateddynamicscompat.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b204ccd702937c7f0a8fa5a3112f79a0</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/integrateddynamics.cfg</URL>
+				<Path>config/integrateddynamics.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>010c04b99a989de069a3a8f85a534b1c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Integrated Tunnels" id="integratedtunnels" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/IntegratedTunnels-1.12.2-1.5.5.jar</URL>
+			<Size>1709647</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e99e72083348ce674e9af7809bf5c300</MD5>
+			<Meta>
+				<credits>rubensworks (aka kroeserr)</credits>
+				<description>Transfer other stuff over Integrated Dynamics networks</description>
+				<version>1.12.2-1.5.5</version>
+				<url>https://github.com/CyclopsMC/IntegratedTunnels</url>
+				<authors>rubensworks (aka kroeserr)</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/integratedtunnelscompat.cfg</URL>
+				<Path>config/integratedtunnelscompat.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>66654edd2ba44bb374d5b9aa03ec08a4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/integratedtunnels.cfg</URL>
+				<Path>config/integratedtunnels.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>eed1aa82a3c33628351cb44b33d64c88</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/InventoryTweaks-1.64-dev.jar</URL>
+			<Size>262219</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>30791650e1af0293a8fbc26756a0e92f</MD5>
+			<Meta>
+				<credits>By Jimeo Wan, updated for Forge by Kobata</credits>
+				<description>Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.</description>
+				<version>1.64-dev+release.110.b4fac73</version>
+				<url>https://github.com/Kobata/inventory-tweaks</url>
+				<authors>Jimeo Wan, Kobata</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/InvTweaksTree.txt.bak</URL>
+				<Path>config/InvTweaksTree.txt.bak</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>70eb5370e04cd72e3500fa28917dda9f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/InvTweaksRules.txt</URL>
+				<Path>config/InvTweaksRules.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>92d24282b6449e90a1ce9ca621c7f43e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/InvTweaksTree.txt</URL>
+				<Path>config/InvTweaksTree.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6e603441d60e9330b0ceb8fd9dc5eec1</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/InvTweaks.cfg</URL>
+				<Path>config/InvTweaks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>38c07aa3f06411f8c5ebb02409f9f621</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Iron Backpacks" id="ironbackpacks" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/IronBackpacks-1.12.2-3.0.5-6.jar</URL>
+			<Size>461050</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1dceb5a6a0d818e8b28b4a27f6eb3b9b</MD5>
+			<Meta>
+				<credits>cpw, sapient, #minecraftforge (especially diesieben07), TehNut, tterrag</credits>
+				<description>Adds tiered backpacks and a system of modular upgrades to go with them!</description>
+				<version>1.12.2-3.0.5-6</version>
+				<url></url>
+				<authors>gr8pefish</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ironbackpacks/ironbackpacks.cfg</URL>
+				<Path>config/ironbackpacks/ironbackpacks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>69c6b832e2d5b1f2401a0b101e9349b1</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ironbackpacks/blacklist.json</URL>
+				<Path>config/ironbackpacks/blacklist.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>19e53c088151fce167b25ccde6f3e0c4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ironbackpacks.cfg</URL>
+				<Path>config/ironbackpacks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bcd8510452957d580e3bcd910cba2f5a</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Iron Chest" id="ironchest" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ironchest-1.12.2-7.0.40.824.jar</URL>
+			<Size>1101965</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dd941ee283cfc5507ed846a1f52e67be</MD5>
+			<Meta>
+				<credits>By cpw, based on an original idea by Lishid</credits>
+				<description>New chests with larger sizes, with in-place upgrade items.
+The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest</description>
+				<version>1.12.2-7.0.40.824</version>
+				<url>http://www.minecraftforum.net/topic/981855-</url>
+				<authors>cpw</authors>
+			</Meta>
+		</Module>
+		<Module name="It&apos;s the little things" id="itlt" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/itlt-1.12-1.0.0.jar</URL>
+			<Size>14693</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>75be12aad10a41fb17491d4e286ef2ac</MD5>
+			<Meta>
+				<credits>sunshinehunter - Porting to 1.8</credits>
+				<description>A mod that does those &quot;little things&quot;.</description>
+				<version>1.0.0</version>
+				<url></url>
+				<authors>Zlepper</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/itlt.cfg</URL>
+				<Path>config/itlt.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3edf022f5f9f32e24a8bc8d680635a12</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Item Scroller" id="itemscroller" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/itemscroller-1.12.0-0.11.0.jar</URL>
+			<Size>51701</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ec83abe7a8cb737007182c2996b54a6b</MD5>
+			<Meta>
+				<credits>ChickenBones (original idea, in NEI)</credits>
+				<description>Move items in inventory GUIs by scrolling the mouse wheel over slots with items in them</description>
+				<version>0.11.0</version>
+				<url>http://minecraft.curseforge.com/projects/item-scroller</url>
+				<authors>masa</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/itemscroller.cfg</URL>
+				<Path>config/itemscroller.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c99c14c9dfebb1c4c9b6c13923c795fd</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/MapWriterBlockColours.txt</URL>
+				<Path>config/MapWriterBlockColours.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8b217032b323a5dbb578575a01247caa</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="JEI Bees" id="jeibees" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/jeibees-0.9.0.5-mc1.12.2.jar</URL>
+			<Size>117480</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a4fef0a3bb6d401eb236b3fe3e1a4846</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>0.9.0.5</version>
+				<url>http://bdew.net/</url>
+				<authors>bdew</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/jeibees.cfg</URL>
+				<Path>config/jeibees.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e4751b49d8b70b9270c2de772c81245c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="JEI Integration" id="jeiintegration" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/jeiintegration_1.12.2-1.5.1.36.jar</URL>
+			<Size>54046</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>de73cdc5de95a2685e50d90f01c03a50</MD5>
+			<Meta>
+				<credits>A huge thank you to Tonius for originally creating this amazing mod. I hope it lives up to his standards in his absence.</credits>
+				<description>JEI Integrations is the predecessor to NEI Integrations created by Tonius for Minecraft 1.7.10. It adds various tooltips, additional support for recipe handlers in Just Enough Items (JEI) and some various other features (Coming Soon...)</description>
+				<version>1.5.1.36</version>
+				<url>https://minecraft.curseforge.com/projects/jei-integration</url>
+				<authors>SnowShock35</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/jeiintegration.cfg</URL>
+				<Path>config/jeiintegration.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7d493678946a7cf99f632c06c858c4fb</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="JourneyMap" id="journeymap" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/journeymap-1.12.2-5.5.2.jar</URL>
+			<Size>1822850</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b743562dac1b5334c20ac87b54c0b518</MD5>
+			<Meta>
+				<credits></credits>
+				<description>JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.12-1.4. Built: 2017-11-08-19:54:02.</description>
+				<version>1.12.2-5.5.2</version>
+				<url>http://journeymap.info</url>
+				<authors>techbrew, mysticdrew</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/journeymap_ModInfo.cfg</URL>
+				<Path>config/journeymap_ModInfo.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>dafc4600c5765deb61367a0b73e54418</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/jei_1.12.2-4.8.5.159.jar</URL>
+			<Size>545500</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>48b89be868a5a18f3963672b623118f7</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Simple recipe and item helper.</description>
+				<version>4.8.5.159</version>
+				<url>https://github.com/mezz/JustEnoughItems</url>
+				<authors>mezz</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/jei/itemBlacklist.cfg</URL>
+				<Path>config/jei/itemBlacklist.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ef264ca4bf47a02d35d99af5b8f4d402</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/jei/searchColors.cfg</URL>
+				<Path>config/jei/searchColors.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>585c420ac4e5433c27837a588927a0c0</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/jei/jei.cfg</URL>
+				<Path>config/jei/jei.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ad8c419bebd2e2a63b3d3d27d7773803</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/jei/worldSettings.cfg</URL>
+				<Path>config/jei/worldSettings.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7f619df34ecdf3029ca8f9c3dc0668ca</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Just Enough Resources" id="jeresources" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/JustEnoughResources-1.12.2-0.8.7.41.jar</URL>
+			<Size>215140</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>82417033d33f4a478aad6643cc7abb8c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds Resources and Mob Drops to JEI</description>
+				<version>0.8.7</version>
+				<url></url>
+				<authors>way2muchnoise</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/jeresources/jeresources.cfg</URL>
+				<Path>config/jeresources/jeresources.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b9bf180549c5777d6eb51011400f3426</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Lapis Stays in the Enchanting Table" id="csb_ench_table" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/EnchantingTable-1.12-1.1.2.jar</URL>
+			<Size>37573</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c277013d13df3a45b3add38627b81371</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Makes the lapis slot on the enchanting table persistent, so your lapis stays put!</description>
+				<version>1.1.2</version>
+				<url>https://minecraft.curseforge.com/projects/lapis-stays-in-the-enchanting-table/</url>
+				<authors>crazysnailboy</authors>
+			</Meta>
+		</Module>
+		<Module name="libVulpes" id="libVulpes" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/LibVulpes-1.12.2-0.2.8-29-universal.jar</URL>
+			<Size>496037</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d1c814ddd94685c35b913f129d94f8e8</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A Library containing code for multiblocks and ore/item registration and access</description>
+				<version>1.12.2-0.2.8-29</version>
+				<url>http://minecraft.curseforge.com/projects/libvulpes</url>
+				<authors>zmaster587</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/libvulpes.cfg</URL>
+				<Path>config/libvulpes.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>df02a729ed0dc3f52b0f67796ee0bca8</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Light Level Overlay Reloaded" id="llor" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/LLOverlayReloaded-1.1.4-mc1.12.jar</URL>
+			<Size>17361</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f48a17e61ec61a0be5eab679a16167ae</MD5>
+			<Meta>
+				<credits>Thanks to 4poc for his original version.</credits>
+				<description>A mod visualizes the light level on top of blocks.</description>
+				<version>1.1.4-mc1.12</version>
+				<url>www.mmyzd.com</url>
+				<authors>oldjunyi</authors>
+			</Meta>
+		</Module>
+		<Module name="Mantle" id="mantle" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Mantle-1.12-1.3.1.21.jar</URL>
+			<Size>865513</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d194c9461c96e4e4c330931247a7a0dd</MD5>
+			<Meta>
+				<credits>mDiyo, Sunstrike</credits>
+				<description>Shared code for Slime Knights mods and others.</description>
+				<version>1.3.1.21</version>
+				<url>https://github.com/SlimeKnights/Mantle</url>
+				<authors>boni, progWML6, Alexbegt</authors>
+			</Meta>
+		</Module>
+		<Module name="MatterOverdrive" id="matteroverdrive" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/MatterOverdrive-1.12.2-0.6.0.148-universal.jar</URL>
+			<Size>16952908</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2f7ed7c573cd6fbcedd11509d083e050</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A mod that dwells within matter and energy.</description>
+				<version>1.12.2-0.6.0.148</version>
+				<url>https://mo.simeonradivoev.com</url>
+				<authors>Coded, Simeon Radivoev, Shadowfacts, Dev_Osmium</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/MatterOverdrive/recipes/inscriber.xml</URL>
+				<Path>config/MatterOverdrive/recipes/inscriber.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ed567ebe30a19850bb4f4b4e1c237cd2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/MatterOverdrive/MatterOverdrive.cfg</URL>
+				<Path>config/MatterOverdrive/MatterOverdrive.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>eaa7a79b4dea39440ca83ab8f8dae45c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="McJtyLib" id="mcjtylib_ng" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/mcjtylib-1.12-2.6.7.jar</URL>
+			<Size>370547</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>da3687481a5f5c8d78be4beb77704c7f</MD5>
+			<Meta>
+				<credits>diesieben07, for being of constant assistance with my questions on modding and Forge in specific</credits>
+				<description>McJtyLib library for RFTools, Deep Resonance, ...</description>
+				<version>1.12-2.6.7-SNAPSHOT</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/mcjtylib.cfg</URL>
+				<Path>config/mcjtylib.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4167cd5b8a07c11953a6006564bd5edb</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="MCMultiPart-2.5.1" id="MCMultiPart" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/MCMultiPart-2.5.1.jar</URL>
+			<Size>173047</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7a336be77ae656fafa9200a4e42094bf</MD5>
+		</Module>
+		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Mekanism-1.12.2-9.4.3.330.jar</URL>
+			<Size>15993190</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e2608c622fddf3560b6fadb8164736d7</MD5>
+			<Meta>
+				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
+				<description>Energy, Armor, Tools, Weapons, Machines, Magic.</description>
+				<version>1.12.2-9.4.3.330</version>
+				<url></url>
+				<authors>aidancbrady</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/mekanism.cfg</URL>
+				<Path>config/mekanism.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b66ecfc1f06659fa88be5c0aef0821c0</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/mekanism/BoxBlacklist.txt</URL>
+				<Path>config/mekanism/BoxBlacklist.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>dabdb199f20730c3f6307c8e05cf4893</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="MekanismGenerators" id="mekanismgenerators" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/MekanismGenerators-1.12.2-9.4.3.330.jar</URL>
+			<Size>338420</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6ed4db5f2a9635ceee1058f34e1d84c1</MD5>
+			<Meta>
+				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
+				<description>Generators module of Mekanism.</description>
+				<version>1.12.2-9.4.3.330</version>
+				<url></url>
+				<authors>aidancbrady</authors>
+			</Meta>
+		</Module>
+		<Module name="MekanismTools" id="mekanismtools" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/MekanismTools-1.12.2-9.4.3.330.jar</URL>
+			<Size>161111</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c0dd879190f51d8accffc6533412b231</MD5>
+			<Meta>
+				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
+				<description>Tools module for Mekanism.</description>
+				<version>1.12.2-9.4.3.330</version>
+				<url></url>
+				<authors>aidancbrady</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/malisisdoors.cfg</URL>
+				<Path>config/malisisdoors.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3b496edc645d3655f6c0a763e8a9ee12</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Minecraft Forge" id="forge-14.23.3.2655" depends="" side="BOTH">
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Override</ModType>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forgeChunkLoading.cfg</URL>
+				<Path>config/forgeChunkLoading.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e3e33a8574e728f4a8519235b525fc46</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/splash.properties</URL>
+				<Path>config/splash.properties</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0a5ac6d01c96023e8b3d23a97b7c8eb0</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/forge.cfg</URL>
+				<Path>config/forge.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>637b4886a98e403311ab9a432eaebb30</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Morph-o-Tool" id="morphtool" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Morph-o-Tool-1.2-16.jar</URL>
+			<Size>26285</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3b199ebf54475d8ab7fb1bd069325478</MD5>
+			<Meta>
+				<credits></credits>
+				<description>The wrench to end all wrenches.</description>
+				<version>1.2-16</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/morphtool.cfg</URL>
+				<Path>config/morphtool.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a090ada2197b4940706543b0b1051fab</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Morpheus" id="morpheus" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Morpheus-1.12-3.3.2.jar</URL>
+			<Size>20837</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6beb6c9b45a6526106f728ec35508a0c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Morpheus is a server-only mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate.</description>
+				<version>1.12-3.3.2</version>
+				<url>http://www.curse.com/mc-mods/Minecraft/morpheus</url>
+				<authors>Quetzi</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/morpheus.cfg</URL>
+				<Path>config/morpheus.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>343a272893364b5a639f69edb48f03ff</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="MTLib" id="mtlib" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/MTLib-3.0.4.jar</URL>
+			<Size>29989</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4034d1d2f4b3d6cf3b3f0799594ca6bc</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>3.0.4</version>
+				<url></url>
+				<authors>Jaredlll08</authors>
+			</Meta>
+		</Module>
+		<Module name="Mystical Agradditions" id="mysticalagradditions" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/mysticalagradditions-1.12-1.2.8.jar</URL>
+			<Size>130481</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>619124480f819a39cbdedd64aae7e0f4</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An addon for Mystical Agriculture.</description>
+				<version>1.2.8</version>
+				<url>https://minecraft.curseforge.com/projects/mystical-agradditions</url>
+				<authors>BlakeBr0</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/mysticalagradditions.cfg</URL>
+				<Path>config/mysticalagradditions.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8da1471a505e4dcd2f38e67adfd69d5c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Mystical Agriculture" id="mysticalagriculture" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/mysticalagriculture-1.12-1.6.9.jar</URL>
+			<Size>1468820</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fc9789d50c435fe22467fb7874c7e6d8</MD5>
+			<Meta>
+				<credits>Mark719 for Magical Crops, which this mod is based off of, as well as where the Growth Accelerator texture comes from.</credits>
+				<description>Adds Resource Crops, Armor, Tools, and other fun stuff!</description>
+				<version>1.6.9</version>
+				<url>https://minecraft.curseforge.com/projects/mystical-agriculture</url>
+				<authors>BlakeBr0</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/mysticalagriculture_recipes.cfg</URL>
+				<Path>config/mysticalagriculture_recipes.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4ad58c9e2b7c1d2b66a11d62103b8ef3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/mysticalagriculture.cfg</URL>
+				<Path>config/mysticalagriculture.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c5f105a82cecbe95465f1bde6fbac587</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Natura" id="natura" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/natura-1.12.2-4.3.2.42.jar</URL>
+			<Size>1107187</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0f8c9cf9490e80295556741e857c35ec</MD5>
+			<Meta>
+				<credits>Samtrion, tterrag</credits>
+				<description>Heyo, Redwood trees! Chop them all day long!</description>
+				<version>1.12.2-4.3.2.42</version>
+				<url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294968-natura</url>
+				<authors>mDiyo, Slime Knights</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/NaturaModules.cfg</URL>
+				<Path>config/NaturaModules.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>09b902b65e6e3b295866ec8b398db533</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/natura.cfg</URL>
+				<Path>config/natura.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>793fef194f417eec180f468200901c64</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="NetherPortalFix" id="netherportalfix" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/NetherPortalFix_1.12.1-5.3.13.jar</URL>
+			<Size>108250</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c3a2aff88d5b46dd22a2635f403568eb</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer.</description>
+				<version>5.3.13</version>
+				<url>https://minecraft.curseforge.com/mc-mods/241160/</url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+		<Module name="No Mob Spawning on Trees" id="nmsot" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/NoMobSpawningOnTrees-1.2.1-mc1.12.jar</URL>
+			<Size>40272</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>93bc1b7f7bdad6bb82e79fc190e769d4</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A mod disables mob spawning on wood logs.</description>
+				<version>1.2.1-mc1.12</version>
+				<url>www.mmyzd.com</url>
+				<authors>oldjunyi</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/NoMobSpawningOnTrees.cfg</URL>
+				<Path>config/NoMobSpawningOnTrees.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>adcc6ba13d47b824f02353478585bcad</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="NotEnoughIDs" id="neid" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/NotEnoughIDs-1.5.4.2.jar</URL>
+			<Size>31808</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0d5f584255c5edbe94cf1f6a6feacf96</MD5>
+			<Meta>
+				<credits>immibis for MinecraftForkage code, VikeStep and GloomyFolken for their coremod tutorials</credits>
+				<description>Extends hardcoded block ID limit.</description>
+				<version>1.5.4.2</version>
+				<url></url>
+				<authors>fewizz, Player</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/notenoughwands.cfg</URL>
+				<Path>config/notenoughwands.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8806658e65fc06b9ac6cd7e470393b24</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="NuclearCraft" id="nuclearcraft" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/NuclearCraft-2.10j--1.12.2.jar</URL>
+			<Size>5894310</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>925ca8ee82815035a79663133a3c438f</MD5>
+			<Meta>
+				<credits>Thanks to all suggestors, bug reporters, modders whose APIs I have used and those who have made language files!</credits>
+				<description>Nuclear Physics, Minecraft Style</description>
+				<version>2.10j</version>
+				<url>https://minecraft.curseforge.com/projects/nuclearcraft-mod</url>
+				<authors>tomdodd4598</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/nuclearcraft.cfg</URL>
+				<Path>config/nuclearcraft.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>19a93e18be290e233ab9624bc4708aa4</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="OMLib" id="omlib" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/omlib-1.12.2-3.0.0-140.jar</URL>
+			<Size>101367</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f8b6f195161af8cd660e887fca140e58</MD5>
+			<Meta>
+				<credits>Keridos</credits>
+				<description>Lib for OMT and its companion mods!</description>
+				<version>3.0.0-140</version>
+				<url></url>
+				<authors>Poenjabiesous, Keridos</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/omlib.cfg</URL>
+				<Path>config/omlib.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7165033f45d84078bbbf09b63479b243</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Open Glider" id="openglider" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/OpenGlider-1.12.1-1.1.0.jar</URL>
+			<Size>109626</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>057ce598bed8e0414d1b2c7ae863a234</MD5>
+			<Meta>
+				<credits>open blocks team, Mystereym, kenzierocks, jamieswhiteshirt</credits>
+				<description>Hang glider!</description>
+				<version>1.12.1-1.1.0</version>
+				<url></url>
+				<authors>gr8pefish</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/openglider.cfg</URL>
+				<Path>config/openglider.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1545b13ba77037d4d6f7a9d5b1acba9d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Open Modular Passive Defense" id="ompd" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ompd-1.12.2-3.0.0-35.jar</URL>
+			<Size>94947</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2048b013a6e79e7e72f49cc25f17f6df</MD5>
+			<Meta>
+				<credits>Poenjabiesous</credits>
+				<description>All a man needs are meat ingots, and big ass walls. Adds new walls and fences!</description>
+				<version>3.0.0-35</version>
+				<url></url>
+				<authors>Poenjabiesous, Keridos</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ompd.cfg</URL>
+				<Path>config/ompd.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Open Modular Turrets" id="openmodularturrets" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/openmodularturrets-1.12.2-3.0.0-243.jar</URL>
+			<Size>976287</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c619863df7d352df8ea6cae33314e3f8</MD5>
+			<Meta>
+				<credits>Poenjabiesous</credits>
+				<description>All a man needs are meat ingots, and big ass turrets. Adds a heap of new turrets and upgrades!</description>
+				<version>3.0.0-243</version>
+				<url></url>
+				<authors>Poenjabiesous, UntouchedWagons, Keridos</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/openmodularturrets.cfg</URL>
+				<Path>config/openmodularturrets.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>723c2921ebeeab7a51dc2e60b82391ba</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="OpenBlocks" id="openblocks" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/OpenBlocks-1.12.2-1.7.6.jar</URL>
+			<Size>3173186</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7581d1ce11ae5f433f9de0a33307ae3c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>All the things you never thought you will ever need</description>
+				<version>1.7.6</version>
+				<url>http://openmods.info/</url>
+				<authors>Mikee, NeverCast, boq, Lyqyd</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/openblocks.cfg</URL>
+				<Path>config/openblocks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e54bbdfd2f6448968899ee74af5a6c28</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/BlockDrops/blockdrops.txt</URL>
+				<Path>config/BlockDrops/blockdrops.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e5df9664407dfb1c03b3fb33acb35227</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="OpenComputers" id="opencomputers" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/OpenComputers-MC1.12.2-1.7.2.67.jar</URL>
+			<Size>15316083</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>45ee059c7e7a4c5ff9e9662f82a9c523</MD5>
+			<Meta>
+				<credits>Inspired by a couple of other mods, most notably ComputerCraft.</credits>
+				<description>This mod adds modular computers and robots that can be programmed in Lua.</description>
+				<version>1.7.2.67</version>
+				<url>http://oc.cil.li/</url>
+				<authors>Sangar, Vexatos, payonel, magik6k, Lord Joda, Github Contributors</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/opencomputers/user.recipes</URL>
+				<Path>config/opencomputers/user.recipes</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3d73e5a17c471ee629cfddae571a3fca</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/opencomputers/default.recipes</URL>
+				<Path>config/opencomputers/default.recipes</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>058ac4a7e1056c5f75e728d384778725</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/opencomputers/settings.conf</URL>
+				<Path>config/opencomputers/settings.conf</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5eb010596113b5b6d36f64021e29dadf</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/opencomputers/gregtech.recipes</URL>
+				<Path>config/opencomputers/gregtech.recipes</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>57553d342f1ef42b07f70650bba4e85e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/opencomputers/peaceful.recipes</URL>
+				<Path>config/opencomputers/peaceful.recipes</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>286d513b9f52868b0991042f18ac3e22</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/opencomputers/hardmode.recipes</URL>
+				<Path>config/opencomputers/hardmode.recipes</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7046b0375e503d2c0def6eea4b2858a1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="OpenModsLib" id="openmods" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/OpenModsLib-1.12.2-0.11.5.jar</URL>
+			<Size>2609119</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>96d12398277ed4f10609f90d789b191a</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Boring stuff for all that silly Open* mods</description>
+				<version>0.11.5</version>
+				<url>https://openmods.info/</url>
+				<authors>Mikee, NeverCast, boq, Lyqyd</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/OpenModsLibCore.json</URL>
+				<Path>config/OpenModsLibCore.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>76bb325d43d379eb0b36b8cab6e91851</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/openmods.cfg</URL>
+				<Path>config/openmods.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>49e22b7cca9d2f701d26ae438fcf5681</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="OreExcavation" id="oreexcavation" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/OreExcavation-1.4.113.jar</URL>
+			<Size>179320</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c35236f1e76054d060a50b746d413993</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows players to mine whole veins of ore, cut down whole trees or any other tool based action in one go. Simple easy to understand configs are also provided for mod pack developers</description>
+				<version>1.4.113</version>
+				<url></url>
+				<authors>Funwayguy, Darkosto</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/oreexcavation_groups.json</URL>
+				<Path>config/oreexcavation_groups.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8d351edf7f25db47ed3b0b0c24377d0f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/oreexcavation_shapes.json</URL>
+				<Path>config/oreexcavation_shapes.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a614a41eae4d83b3b488244a3f524445</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/oreexcavation.cfg</URL>
+				<Path>config/oreexcavation.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>88bcce40d90a9bc7af931bbd3d4b7ef4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/oreexcavation_overrides.json</URL>
+				<Path>config/oreexcavation_overrides.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f956f6ffb418b358c91153dc12e44b90</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="OreExcavation Integration" id="oeintegration" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/oeintegration-2.3.2.jar</URL>
+			<Size>23858</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3a7ea1a8fe6d6e064d27d13dcc651974</MD5>
+			<Meta>
+				<credits>thanks to Funwayguy for making OreExcavation</credits>
+				<description>Integrates OE into other mods.</description>
+				<version>2.3.2</version>
+				<url></url>
+				<authors>BloodWorkXGaming</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/oeintegration.cfg</URL>
+				<Path>config/oeintegration.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>edf26edeef054644bd106b9ad7d3755d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="p455w0rdslib-1.12-2.0.29" id="pwrdslib" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/p455w0rdslib-1.12-2.0.29.jar</URL>
+			<Size>304755</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d7360eb88e7bcf7500e58b77178f92b0</MD5>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/p455w0rdsLib.cfg</URL>
+				<Path>config/p455w0rdsLib.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e6fcde5ce66f9217a204f48dc79ca807</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Placebo" id="placebo" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Placebo-1.12.2-1.3.2.jar</URL>
+			<Size>54262</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dbc590e9cbbd96af9ed2e0924babae25</MD5>
+			<Meta>
+				<credits></credits>
+				<description>1 library boi</description>
+				<version>1.12.2-1.3.2</version>
+				<url></url>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/placebo.cfg</URL>
+				<Path>config/placebo.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e3b87d010424a3189081b03b20b43e80</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Practical Logistics 2" id="practicallogistics2" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/practicallogistics2-1.12.2-3.0.1.jar</URL>
+			<Size>1505521</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c337a66e7e1bafebaa7db251cb53e58c</MD5>
+			<Meta>
+				<credits>Ollie Lansdell - Ideas, Coding, Textures, Models, SkullyGamingMC - Forging Hammer Model</credits>
+				<description>All things data - Requires SonarCore</description>
+				<version>1.12.2-3.0.1</version>
+				<url></url>
+				<authors>Ollie Lansdell</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/Practical-Logistics/Main-Config.cfg</URL>
+				<Path>config/Practical-Logistics/Main-Config.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6295ca411f95f4536140b46bca047d0f</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="ProjectE" id="projecte" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ProjectE-1.12-PE1.2.0.jar</URL>
+			<Size>1463780</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a1215071eadfbec18a32b1d7c956cea8</MD5>
+			<Meta>
+				<credits>Thanks to:
+x3n0ph0b3 - EE2 creator. Allowed use of EE2 assets.
+MidnightLightning - EE2 GUI Textures.
+Magic Banana - Original ProjectE textures.
+MaPePeR - Assistant developer.
+Williewillus - Assistant developer.
+Lilylicious - Assistant developer.</credits>
+				<description>A complete rewrite of EE2 for modern Minecraft versions.</description>
+				<version>1.12-PE1.2.0</version>
+				<url>http://minecraft.curseforge.com/mc-mods/226410-projecte</url>
+				<authors>sinkillerj, Moze_Intel</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/theoneprobe.cfg</URL>
+				<Path>config/theoneprobe.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b39260037b28a3469589ea74f26b8964</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ProjectE/ProjectE.cfg</URL>
+				<Path>config/ProjectE/ProjectE.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>080f9e9c384e710b6d57a334c480386e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ProjectE/mapping.cfg</URL>
+				<Path>config/ProjectE/mapping.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d2cb823230dea8f75dd641e728e7cb7e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ProjectE/nbt_whitelist.json</URL>
+				<Path>config/ProjectE/nbt_whitelist.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>68e1f23d70c1bda33cc99ea5212e2c27</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ProjectE/customConversions/defaults.json</URL>
+				<Path>config/ProjectE/customConversions/defaults.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c1443055dbf80be0e218f33c10c7f3a2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ProjectE/customConversions/ODdefaults.json</URL>
+				<Path>config/ProjectE/customConversions/ODdefaults.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c367419e5074ce78af8ba09dc128f883</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ProjectE/customConversions/example.json</URL>
+				<Path>config/ProjectE/customConversions/example.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2eecbbda4d54051e3e0d4e1c2af01fbe</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ProjectE/customConversions/metals.json</URL>
+				<Path>config/ProjectE/customConversions/metals.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>42c4c309eec7173fa98c72bb9b47a3b7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ProjectE/custom_emc.json</URL>
+				<Path>config/ProjectE/custom_emc.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>81d3e1b89b64cd47d6ba41f14364bfb6</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Quark" id="quark" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Quark-r1.4-123.jar</URL>
+			<Size>1693068</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cec934de31cfa396813cd1fa4f896e15</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Small things.</description>
+				<version>r1.4-123</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii, wiiv</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/quark.cfg</URL>
+				<Path>config/quark.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e24f93da7cf42f89bc0666d090fd91f5</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Quick Leaf Decay" id="quickleafdecay" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/QuickLeafDecay-MC1.12.1-1.2.4.jar</URL>
+			<Size>7074</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e8565fac075a2cef2400ea9bd782ce9c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Makes leaf decay faster</description>
+				<version>1.2.4</version>
+				<url></url>
+				<authors>lumien</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/quickleafdecay.cfg</URL>
+				<Path>config/quickleafdecay.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>12023523f93811c1e67e786c81d557a0</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/fastleafdecay.cfg</URL>
+				<Path>config/fastleafdecay.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6fb0206b93ade3cf5ed5ebad2d8a1dd3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Random Things" id="randomthings" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/RandomThings-MC1.12.2-4.1.5.jar</URL>
+			<Size>2528768</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9f4e1465b85acd3bbb4f2c1125532aaf</MD5>
+			<Meta>
+				<credits>Lumien (Mod);Drakeflame13 (Soul Texture);benzrf,CaptainMalone (Too Many Plants Content);Lorc (Biome Crystal)</credits>
+				<description>Random Things packed into one Mod.</description>
+				<version>4.1.5</version>
+				<url>http://minecraft.curseforge.com/mc-mods/59816-random-things</url>
+				<authors>Lumien</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/randomthings.cfg</URL>
+				<Path>config/randomthings.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ff4b438284b311509eefbaea78f6f377</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Ranged Pumps" id="rangedpumps" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/rangedpumps-0.5.jar</URL>
+			<Size>21519</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>29512482818fe06791e9af63c611e4b2</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Ranged Pumps is a simple mod that adds a pump that pumps liquids in a range</description>
+				<version>0.5</version>
+				<url></url>
+				<authors>Ranged Pumps contributors</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/rangedpumps.cfg</URL>
+				<Path>config/rangedpumps.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c52c14c7e8ec22cf78ebb46ac8a43ae7</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="ReAuth" id="reauth" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ReAuth-3.5.2.jar</URL>
+			<Size>26591</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5378a69bdd80d8b63ac275bb1d780e3e</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A Mod to renew your Session</description>
+				<version>3.5.2</version>
+				<url>http://minecraft.curseforge.com/projects/reauth</url>
+				<authors>TechnicianLP</authors>
+			</Meta>
+		</Module>
+		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/RebornCore-1.12.2-3.6.14.229-universal.jar</URL>
+			<Size>548949</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>aacce9ec557f87eaec71822fea4efbf6</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Reborn Core is a library used for many of the Tech Reborn team&apos;s mods, including Tech Reborn, Quantum Storage, Fluxed Redstone, Hardcore Map Reset, and many more.</description>
+				<version>3.6.14.229</version>
+				<url>https://github.com/TechReborn/RebornCore</url>
+				<authors>modmuss50, Gigabit101, Prospector</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/teamreborn/energy_priority.json</URL>
+				<Path>config/teamreborn/energy_priority.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0dff44b301f9507e5bf00191a0832939</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/teamreborn/techreborn/world.cfg</URL>
+				<Path>config/teamreborn/techreborn/world.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3573797ee9ea8e4729eaca273c87a7cb</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/teamreborn/techreborn/items.cfg</URL>
+				<Path>config/teamreborn/techreborn/items.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>250580fcce11d50bb32e811faf36334b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/teamreborn/techreborn/recipes.cfg</URL>
+				<Path>config/teamreborn/techreborn/recipes.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fee191c3eab8828e0d98d71f02e8d5af</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/teamreborn/techreborn/config.cfg</URL>
+				<Path>config/teamreborn/techreborn/config.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>315e2a6746c7395b0fe6c34b874e8edd</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/teamreborn/techreborn/ores.json</URL>
+				<Path>config/teamreborn/techreborn/ores.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>04f09098a66364a4b20531ad9407cc11</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/teamreborn/techreborn/compat.cfg</URL>
+				<Path>config/teamreborn/techreborn/compat.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8e8a17c4db9337a05b1d9b17bd1e99d9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/teamreborn/techreborn/misc.cfg</URL>
+				<Path>config/teamreborn/techreborn/misc.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>218b104e074a0422bcc625e85e12d6e4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/teamreborn/techreborn/client.cfg</URL>
+				<Path>config/teamreborn/techreborn/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>e70713bc311179eb102b3e274c88a77f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/reborncore.cfg</URL>
+				<Path>config/reborncore.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0c66816a82fcb4a8f9e0c3651e5e6b07</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="RebornStorage" id="rebornstorage" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/RebornStorage-1.12.2-3.0.5.41.jar</URL>
+			<Size>65257</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7644478a0bf0cc0d1c183d7d5b9b7273</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>3.0.5.41</version>
+				<url></url>
+				<authors>Gigabit101</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/teamreborn/techreborn/machines.cfg</URL>
+				<Path>config/teamreborn/techreborn/machines.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>212818aa654b118f4a0998b80ca04a5a</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Redstone Flux" id="redstoneflux" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/RedstoneFlux-1.12-2.0.1.2-universal.jar</URL>
+			<Size>33436</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>78bf83d17f71ea96cff66d93a6c0412a</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>The Redstone Flux API - the cornerstone of Energy Transfer in modded Minecraft since 1.6.4.</description>
+				<version>2.0.1.2</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="Refined Avaritia" id="refined_avaritia" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/refined_avaritia-1.12.2-2.0.jar</URL>
+			<Size>69116</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>886ff1e1ef1e468698f28cea96645e99</MD5>
+			<Meta>
+				<credits>The Avaritia and Refined Storage devs for the amazing mods.</credits>
+				<description>A mod that adds Avaritia support to Refined Storage</description>
+				<version>1.12.2-2.0</version>
+				<url></url>
+				<authors>ExpensiveKoala, MechWarrior99</authors>
+			</Meta>
+		</Module>
+		<Module name="Refined Storage" id="refinedstorage" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/refinedstorage-1.5.32.jar</URL>
+			<Size>1766486</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bafc382c1cc4963a436aceb5b9905e47</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An elegant solution to your hoarding problem</description>
+				<version>1.5.32</version>
+				<url>https://refinedstorage.raoulvdberge.com</url>
+				<authors>Refined Storage contributors</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/refinedstorage.cfg</URL>
+				<Path>config/refinedstorage.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>dc1d128ce0f9f5f07071556969fb8140</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/pregenerator/ExampleFile.txt</URL>
+				<Path>config/pregenerator/ExampleFile.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>073d48198088bcb132fabd4fba90e551</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Refined Storage Addons" id="refinedstorageaddons" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/refinedstorageaddons-0.2.jar</URL>
+			<Size>53918</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>77c49f54d39c1493978a96d03f6587dc</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An addon mod for Refined Storage</description>
+				<version>0.2</version>
+				<url></url>
+				<authors>Refined Storage Addons contributors</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/refinedstorageaddons.cfg</URL>
+				<Path>config/refinedstorageaddons.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>62538b865a911ff5f27cb0fb654f793d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Resource Loader" id="resourceloader" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ResourceLoader-MC1.12.1-1.5.3.jar</URL>
+			<Size>16612</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>51141e882f96ce756b9b3d25f2acdf57</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows mod pack creators / users to add their own custom textures to minecrafts resources without making a resource pack.</description>
+				<version>1.5.3</version>
+				<url></url>
+				<authors>lumien</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/LLOverlayReloaded.cfg</URL>
+				<Path>config/LLOverlayReloaded.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6d5538ef37271775ab6b7500f0b61e93</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="RFTools" id="rftools" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/rftools-1.12-7.33.jar</URL>
+			<Size>2945316</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8758d1cf57c7d5edc2b66aae50a51a1c</MD5>
+			<Meta>
+				<credits>diesieben07, for being of constant assistance with my questions on modding and Forge in specific</credits>
+				<description>RedFlux tools</description>
+				<version>1.12-7.33</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/rftools/dimlets.json</URL>
+				<Path>config/rftools/dimlets.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4f00dde8aa2250c62e6c0ac8dcb888b2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/rftools/rftoolspower.cfg</URL>
+				<Path>config/rftools/rftoolspower.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>971d8fe7ceda3928768d624c375aacfa</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/rftools/dimensions.cfg</URL>
+				<Path>config/rftools/dimensions.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4bf4b9edcf0e61b539976ef3ccccc5f3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/rftools/rftools.cfg</URL>
+				<Path>config/rftools/rftools.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>89640ee4257898cc7a248f79690b32dd</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/rftools/control.cfg</URL>
+				<Path>config/rftools/control.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e7f117baaa5d1c96dba69b0ce4bde4f9</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="RFTools Control" id="rftoolscontrol" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/rftoolsctrl-1.12-1.8.1.jar</URL>
+			<Size>590433</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>67b26a44f522db9e2bd9303024d81edc</MD5>
+			<Meta>
+				<credits></credits>
+				<description>RFTools Control Addon</description>
+				<version>1.12-1.8.1</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+		<Module name="RFTools Dimensions" id="rftoolsdim" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/rftoolsdim-1.12-5.53.jar</URL>
+			<Size>1681981</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>36e03975f60353196548932b8b163751</MD5>
+			<Meta>
+				<credits>diesieben07, for being of constant assistance with my questions on modding and Forge in specific</credits>
+				<description>RFTools Dimensions Addon</description>
+				<version>1.12-5.53</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+		<Module name="rftoolspower-1.12-0.1.1" id="rftoolspower" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/rftoolspower-1.12-0.1.1.jar</URL>
+			<Size>148268</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ad3c3acafa62792e208bad2c765c0fb5</MD5>
+		</Module>
+		<Module name="SBM-WoodenShears-1.12-0.0.1b8" id="SBM-WoodenShears-.-..b" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/SBM-WoodenShears-1.12-0.0.1b8.jar</URL>
+			<Size>19788</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>affbe4eb69f69ea4c5e08e979b44f9b1</MD5>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/bbm/Wooden_Shears.cfg</URL>
+				<Path>config/bbm/Wooden_Shears.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9d299da6d027c79ea66989ab2d0ee149</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Secret Rooms 5" id="secretroomsmod" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/secretroomsmod-1.12.2-5.6.2.jar</URL>
+			<Size>341780</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8269075aa1ac916547f3a68464f53910</MD5>
+			<Meta>
+				<credits>Originally made by AbrarSyed. Rewritten for 1.12.2 by Wyn Price</credits>
+				<description>This mod adds a variety of cool blocks that camouflage themselves to the surrounding world. All of these blocks have extremely useful functions that allow you to simply hide your diamonds, or punish all who dare try to get to them. Hidden doors, pressure plates, hidden levers and more!</description>
+				<version>5.6.2</version>
+				<url></url>
+				<authors>Wyn Price</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/secretroomsmod.cfg</URL>
+				<Path>config/secretroomsmod.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7a9c9ed189ae57ecd09670691f2f3afc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/securitycraft.cfg</URL>
+				<Path>config/securitycraft.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>528384107fe8770c094a28962ef1a9c1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Shadowfacts&apos; Forgelin" id="forgelin" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Forgelin-1.6.0.jar</URL>
+			<Size>3984198</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a6a1d137f7bbbbe5f89ecb790105f268</MD5>
+			<Meta>
+				<credits>Emberwalker, for the original Forgelin</credits>
+				<description>Kotlin helper library for Forge.</description>
+				<version>1.6.0</version>
+				<url>https://github.com/shadowfacts/Forgelin</url>
+				<authors>shadowfacts</authors>
+			</Meta>
+		</Module>
+		<Module name="ShadowMC" id="shadowmc" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ShadowMC-1.12-3.8.0.jar</URL>
+			<Size>464802</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4649d8bc9cf94f032b4482692f4b4c2d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A library mod required for all my other mods.</description>
+				<version>1.12-3.8.0</version>
+				<url>http://github.com/shadowfacts/ShadowMC</url>
+				<authors>Shadowfacts</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/shadowfacts/ShadowMC.cfg</URL>
+				<Path>config/shadowfacts/ShadowMC.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bc89d6b282961cd0d5fb66445260238d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="ShetiPhian-Core" id="shetiphiancore" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/shetiphiancore-1.12.0-3.5.6.jar</URL>
+			<Size>395298</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f0b47545bb11a0663740f1044bcf8ad1</MD5>
+			<Meta>
+				<credits>Art: Fruzstrated</credits>
+				<description>Core set of files needed by ShetiPhians mods</description>
+				<version>1.12.0-3.5.6</version>
+				<url>http://tomkinsbros.blogspot.ca/p/core.html</url>
+				<authors>ShetiPhian</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/shetiphiancore.cfg</URL>
+				<Path>config/shetiphiancore.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d48eb105522f9ae882ea790d4a288a5e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Silent Lib" id="SilentLib" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/SilentLib-1.12-2.2.18-100.jar</URL>
+			<Size>215687</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e9bb5283969b903c928344e46bc3f8d1</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Shared library for SilentChaos512&apos;s mods.</description>
+				<version>2.2.18</version>
+				<url></url>
+				<authors>SilentChaos512</authors>
+			</Meta>
+		</Module>
+		<Module name="Silent&apos;s Gems" id="silentgems" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/SilentsGems-1.12-2.6.9b-265.jar</URL>
+			<Size>2566483</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f2ead3e0cfc5b77056a1e63c6c5cd7d6</MD5>
+			<Meta>
+				<credits>
+Creator: SilentChaos512
+Fancy models: M4thG33k</credits>
+				<description>When diamonds won&apos;t cut it.</description>
+				<version>2.6.9</version>
+				<url>http://minecraft.curseforge.com/projects/silents-gems</url>
+				<authors>SilentChaos512</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/silentgems.cfg</URL>
+				<Path>config/silentgems.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>db12590cbe5ef087ffbf70c852c8d6b9</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Silent&apos;s Gems: Extra Parts" id="sgextraparts" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/SGExtraParts-1.12-1.4.1-34.jar</URL>
+			<Size>100276</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9bc8baabeeb0731a49f5b5682acdbb2c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Official tool part add-on pack for Silent&apos;s Gems</description>
+				<version>1.4.1</version>
+				<url></url>
+				<authors>SilentChaos512</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/sgextraparts.cfg</URL>
+				<Path>config/sgextraparts.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d6a909cf80f8856917f03bb756dd7602</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Simple Bedrolls" id="simplebedrolls" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/[1.12]SimpleBedrolls-1.2.1.jar</URL>
+			<Size>176528</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e3d40ce61f3514a960f09e8d83900c14</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.2.1</version>
+				<url></url>
+				<authors>Konlii</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/SimpleBedrolls.cfg</URL>
+				<Path>config/SimpleBedrolls.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8a1b7c0d9c7347871a3bbc96f8c620c0</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Simply Conveyors &amp; More" id="simplyconveyors" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/SimplyConveyors-4.0.4.jar</URL>
+			<Size>277789</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>77b0e77cb07eb514c78e8b21b1430c4e</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Logistics and item transport go great together. With conveyors, it looks even cooler.</description>
+				<version>4.0.4</version>
+				<url>https://zundrel.com</url>
+				<authors>Zundrel</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/simplyconveyors.cfg</URL>
+				<Path>config/simplyconveyors.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e10caaf157043683e32a5ead787c6c44</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Solar Flux Reborn" id="solarfluxreborn" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/SolarFluxReborn_1.12.2-3.50r.jar</URL>
+			<Size>215318</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dd7ca152f967bd34109134c31b861fc5</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Solar Panels producing Redstone Flux or Forge Energy</description>
+				<version>3.50r</version>
+				<url></url>
+				<authors>APengu</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/solarfluxreborn/DraconicEvolution.cfg</URL>
+				<Path>config/solarfluxreborn/DraconicEvolution.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4ceaaa06a45822b11c1d1e76e239e608</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/solarfluxreborn/main.cfg</URL>
+				<Path>config/solarfluxreborn/main.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a3e18a1411991f75ac7b6472ad625601</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/solarfluxreborn/version.dat</URL>
+				<Path>config/solarfluxreborn/version.dat</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>80b9b9a151c660cc1abe163fdbde2b85</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/solarfluxreborn/BlackHoleStorage.cfg</URL>
+				<Path>config/solarfluxreborn/BlackHoleStorage.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="SonarCore" id="sonarcore" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/sonarcore-1.12.2-5.0.9.jar</URL>
+			<Size>1120837</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ab696953e4eae3e8d950847de4904b3a</MD5>
+			<Meta>
+				<credits>Created by Ollie Lansdell</credits>
+				<description>Sonar&apos;s Modding Framework</description>
+				<version>1.12.2-5.0.9</version>
+				<url></url>
+				<authors>Ollie Lansdell</authors>
+			</Meta>
+		</Module>
+		<Module name="Soul Shards - The Old Ways" id="soulshardstow" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/SoulShards-TOW-1.12-2.7.6-56.jar</URL>
+			<Size>267559</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>791174e6131629f5d806db7d23495058</MD5>
+			<Meta>
+				<credits>ShadwDrgn, Moze_Intel, Nenivar, RetiredNavyVet, TeamWhammich, BBoldt</credits>
+				<description>Custom spawners for any mob!</description>
+				<version>1.12-2.7.6-56</version>
+				<url></url>
+				<authors>TehNut</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/sstow/SoulShards.cfg</URL>
+				<Path>config/sstow/SoulShards.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d072e39f9488da7deb9ac9fe8e18c5cc</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Steve&apos;s Carts 2" id="stevescarts" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/StevesCarts-1.12.2-2.4.18.92.jar</URL>
+			<Size>2470024</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1f288760d92aced1dc7eb89497d68b61</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A carttastic mod adding a near infinite number of carts possible to the game, through the creation of  modular carts.</description>
+				<version>2.4.18.92</version>
+				<url></url>
+				<authors>Vswe</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/stevescarts.cfg</URL>
+				<Path>config/stevescarts.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6e3370d65c0827e2ff5882a8cbd40704</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Storage Drawers" id="storagedrawers" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/StorageDrawers-1.12.2-5.3.6.jar</URL>
+			<Size>596064</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>85e61670aa8a97002e7a382effdeac51</MD5>
+			<Meta>
+				<credits>By jaquadro</credits>
+				<description>Multi-drawer storage blocks for quick storage and retrieval.</description>
+				<version>1.12.2-5.3.6</version>
+				<url>http://www.jaquadro.com/</url>
+				<authors>jaquadro</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/sstow/ShardTiers.json</URL>
+				<Path>config/sstow/ShardTiers.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>341f9c7dfba276b6f68f8764dfbbe3a2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/storagedrawers.cfg</URL>
+				<Path>config/storagedrawers.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>00fa36a20fbc30e9e1330fa98ae2d4a3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="SwingThroughGrass" id="stg" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/stg-1.12.2-1.2.3.jar</URL>
+			<Size>24024</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b836648006f1451c65d33f7132eec770</MD5>
+			<Meta>
+				<credits>Direwolf20</credits>
+				<description>Don&apos;t let the grass be between you and your prey!</description>
+				<version>1.12.2-1.2.3</version>
+				<url></url>
+				<authors>Exidex</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/stg.cfg</URL>
+				<Path>config/stg.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ba23834dc87b98faf4f55a926c4366c1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thaumcraft" id="thaumcraft" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Thaumcraft-1.12.2-6.1.BETA10.jar</URL>
+			<Size>10633151</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>04a37373f90ade73616a87247869e604</MD5>
+			<Meta>
+				<credits>Special thanks to CovertJaguar, Dan Scott, Lorc, bonemouse, Scott Killen, Rorax and chicken_bones</credits>
+				<description>Adding a touch of magic to Minecraft</description>
+				<version>1.12.2-6.1.BETA10</version>
+				<url>http://www.minecraftforum.net/topic/2011841-thaumcraft</url>
+				<authors>Azanor</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/thaumcraft_world.cfg</URL>
+				<Path>config/thaumcraft_world.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d7c5d21c9f8b694c664726fc7f1cc883</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/thaumcraft_graphics.cfg</URL>
+				<Path>config/thaumcraft_graphics.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9da923c5f038fd3e9a8ba3cacedf53a1</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/thaumcraft_misc.cfg</URL>
+				<Path>config/thaumcraft_misc.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f871ca5744ac8bcaf20b857f8ca41dd8</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thermal Cultivation" id="thermalcultivation" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ThermalCultivation-1.12.2-0.1.5.3-universal.jar</URL>
+			<Size>62470</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>52e97e8e52234618a062583be4be55e1</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Thermal gets Agrarian - provides options for farming and related activities!</description>
+				<version>0.1.5.3</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/thermalcultivation/common.cfg</URL>
+				<Path>config/cofh/thermalcultivation/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8109a92dc92caf395629804a45ebe210</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/thermalcultivation/client.cfg</URL>
+				<Path>config/cofh/thermalcultivation/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>a8ad2a823294e2d6f41d9f0d21af04ff</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thermal Dynamics" id="thermaldynamics" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ThermalDynamics-1.12.2-2.3.10.4-universal.jar</URL>
+			<Size>716384</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>29d8ba842c1548413551299a977bcc0d</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Thermal meets Dynamic - provides options for transporting items, fluids, and Redstone Flux!</description>
+				<version>2.3.10.4</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/thermaldynamics/cover_blacklist.json</URL>
+				<Path>config/cofh/thermaldynamics/cover_blacklist.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3d4b9dc4a9be34a6e622c0e53049a302</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/thermaldynamics/common.cfg</URL>
+				<Path>config/cofh/thermaldynamics/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5e1d070e0bfea43b7795e96c8b593936</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/thermaldynamics/client.cfg</URL>
+				<Path>config/cofh/thermaldynamics/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>b03b9a1a6ed21c94895a487c17b1a645</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thermal Expansion" id="thermalexpansion" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ThermalExpansion-1.12.2-5.3.10.15-universal.jar</URL>
+			<Size>2165503</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b766511bb42e33f19de2946766fb6c1a</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Expanding Minecraft Thermally - provides new options for automation and processing!</description>
+				<version>5.3.10.15</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/thermalexpansion/morbs.cfg</URL>
+				<Path>config/cofh/thermalexpansion/morbs.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6d7f022626bf02e53ca255c8b735cf33</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/thermalexpansion/florbs.cfg</URL>
+				<Path>config/cofh/thermalexpansion/florbs.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>92560cd9b962f13020fe196679c67434</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/thermalexpansion/common.cfg</URL>
+				<Path>config/cofh/thermalexpansion/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6580f8a41b298a1379ed9dd80f48883a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/thermalexpansion/client.cfg</URL>
+				<Path>config/cofh/thermalexpansion/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>8a5bb5f413b67777d5ab2b13af253cbb</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thermal Foundation" id="thermalfoundation" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ThermalFoundation-1.12.2-2.3.10.6-universal.jar</URL>
+			<Size>2022699</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b6cf0894be586fdc859b522fd461e3b0</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>The foundation of a Thermally enhanced world!</description>
+				<version>2.3.10.6</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/thermalfoundation/common.cfg</URL>
+				<Path>config/cofh/thermalfoundation/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b58b453fcf107a3bb00001dc8a44960b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/thermalfoundation/client.cfg</URL>
+				<Path>config/cofh/thermalfoundation/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>595baef8fd4d0c3abda1f2ee2aee966e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/thermalfoundation/lexicon-whitelist.cfg</URL>
+				<Path>config/cofh/thermalfoundation/lexicon-whitelist.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6989fb82595410591b67234968dc3d75</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/world/02_thermalfoundation_oil.json</URL>
+				<Path>config/cofh/world/02_thermalfoundation_oil.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7475a52a94c840da07758f58edc7d74f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/world/03_thermalfoundation_clathrates.json</URL>
+				<Path>config/cofh/world/03_thermalfoundation_clathrates.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>784f7e2d6a94a5c234d274b1480b5232</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/cofh/world/01_thermalfoundation_ores.json</URL>
+				<Path>config/cofh/world/01_thermalfoundation_ores.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ec5e5dad1a93e5b061a6d8186e2d4530</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Tinkers Tool Leveling" id="tinkertoolleveling" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/TinkerToolLeveling-1.12-1.0.3.jar</URL>
+			<Size>91796</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>af53d5997a1dba40fb062c05ff72f95c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A small mod that gives your tools XP and awards extra modifiers on levelup</description>
+				<version>1.12-1.0.3.DEV.56fac4f</version>
+				<url>https://github.com/SlimeKnights/TinkersToolLeveling</url>
+				<authors>boni</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/TinkerToolLeveling.cfg</URL>
+				<Path>config/TinkerToolLeveling.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d0909450fb918b56cf5c5d26e76f21e1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Tinkers&apos; Addons" id="TinkersAddons" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Tinkers&apos;%20Addons-1.12.1-1.0.7.jar</URL>
+			<Size>44044</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>798f4dd5eea7b7f62250c7b3e9ce2713</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adding back old modifiers to Tinkers&apos; Construct 2.0</description>
+				<version>1.0.7</version>
+				<url></url>
+				<authors>oitsjustjose</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/TinkerModules.cfg</URL>
+				<Path>config/TinkerModules.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a6d82405a527ff69ed47086ba0ace679</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/tinkersaddons.cfg</URL>
+				<Path>config/tinkersaddons.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8ed334e2410d948dd9935b3592e4fa3d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Tinkers&apos; Construct" id="tconstruct" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/TConstruct-1.12.2-2.9.1.65.jar</URL>
+			<Size>3760118</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5d25cd5d624acc0f3333ea11da65252d</MD5>
+			<Meta>
+				<credits>Slime Knights, mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox</credits>
+				<description>A little of this, a little of that, a lot of tinkering, and a lot of tools</description>
+				<version>1.12.2-2.9.1.65</version>
+				<url>https://github.com/SlimeKnights/TinkersConstruct</url>
+				<authors>boni, KnightMiner</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/tconstruct.cfg</URL>
+				<Path>config/tconstruct.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bd60891cb4851d99e12f3fd2639e560a</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Toast Control" id="toastcontrol" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Toast%20Control-1.12.2-1.4.1.jar</URL>
+			<Size>20157</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9610f97b5ae011707a461ccff358c38f</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Control what toasts are enabled, because some of them are useless.</description>
+				<version>1.12.2-1.4.1</version>
+				<url></url>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/toastcontrol.cfg</URL>
+				<Path>config/toastcontrol.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9223d0195864a1ed5327d6a36db1681f</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Tomb Many Graves" id="tombmanygraves" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/TombManyGraves-1.12-4.0.2.jar</URL>
+			<Size>139179</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7932b15b3ce25e4111d8f7e282bf1d19</MD5>
+			<Meta>
+				<credits>Thanks to any and all who have let me look at/utilize their code to better understand the inner working of MC!</credits>
+				<description>A grave mod for the adventurer on the go!</description>
+				<version>1.12-4.0.2</version>
+				<url></url>
+				<authors>M4thG33k</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/tombmanygraves.cfg</URL>
+				<Path>config/tombmanygraves.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>262e8e16c65588fb653b4827a4aa8a37</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="TorchMaster" id="torchmaster" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/torchmaster_1.12.2-1.6.1.53.jar</URL>
+			<Size>118961</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1a48efbe62a7ddeb11bc7a5016abf377</MD5>
+			<Meta>
+				<credits>The Forge and FML guys for creating forge, RWTema for the &apos;Magnum Torch&apos; idea</credits>
+				<description>Adds a special torch which prevents mobs from spawning in a configurable range</description>
+				<version>1.6.1.53</version>
+				<url></url>
+				<authors>xalcon</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/torchmaster.cfg</URL>
+				<Path>config/torchmaster.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>705c19775c02e1cb177b86c56a4c173f</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Traverse" id="traverse" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Traverse-1.12.1-1.3.1.jar</URL>
+			<Size>238337</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>105f6428f2d4ef9b18e03cd646e3e7ac</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Improving the world with fancy new biomes.</description>
+				<version>1.12.1-1.3.1-CustomBuild</version>
+				<url>https://github.com/AstroInteractive/Traverse</url>
+				<authors>Prospector, TheCodedOne, InsomniaKitten</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/traverse/traverse.cfg</URL>
+				<Path>config/traverse/traverse.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9bf84c137d4fa90fb61567d283709774</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Valkyrie Lib" id="valkyrielib" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/valkyrielib-1.12.2-2.0.9b.jar</URL>
+			<Size>325904</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b6d790885c28d1ed5918117f29e35a58</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.12.2-2.0.8a</version>
+				<url>http://minecraft.curseforge.com/projects/valkyrielib</url>
+				<authors>ValkyrieofNight</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/valkyrielib/main.cfg</URL>
+				<Path>config/valkyrielib/main.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Waila" id="waila" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Hwyla-1.8.25-B40_1.12.jar</URL>
+			<Size>452442</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4f5a0fbda57d4e9583746607397b95f0</MD5>
+			<Meta>
+				<credits></credits>
+				<description>You are using Hwyla, a fork of Waila. You can find more information on the Hwyla CurseForge page.</description>
+				<version>1.8.25</version>
+				<url></url>
+				<authors>ProfMobius, TehNut</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/waila/waila.cfg</URL>
+				<Path>config/waila/waila.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c02f47f0a972f76b4733ee54721c5fb3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/waila/theme/vanilla.json</URL>
+				<Path>config/waila/theme/vanilla.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>93f67ec8cc14f861d01b4b930b49525b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/waila/theme/dark.json</URL>
+				<Path>config/waila/theme/dark.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>91f7d992164fa6c216f5a23059b2137a</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="WAIM-1.0.0" id="WAIM" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/WAIM-1.0.0.jar</URL>
+			<Size>10081</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>654f5bfc1322c22522532e12fc88c039</MD5>
+		</Module>
+		<Module name="Zero CORE" id="zerocore" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/zerocore-1.12-0.1.2.1.jar</URL>
+			<Size>202934</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a77f87366de6a6e9c786c59c786aa8b7</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.12-0.1.2.1</version>
+				<url>http://zerono.it/</url>
+				<authors>ZeroNoRyouki</authors>
+			</Meta>
+		</Module>
+	</Server>
+</ServerPack>
