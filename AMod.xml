@@ -189,6 +189,13 @@
 				<MD5>db018d2a579a67a6515587507240de91</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="AMod" id="AMod" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//AMod.xml</URL>
+			<Size>187902</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e3073a256f47c6e434e7b531107234fd</MD5>
+		</Module>
 		<Module name="AngelRing 2 Bauble" id="flyringbaublemod" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/angelRingToBauble-1.12-0.3.1.50+d4e654e.jar</URL>
 			<Size>44041</Size>
@@ -3170,12 +3177,6 @@ Lilylicious - Assistant developer.</credits>
 				<authors>sinkillerj, Moze_Intel</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://nacjm.github.io/aetherionmod//config/theoneprobe.cfg</URL>
-				<Path>config/theoneprobe.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>b39260037b28a3469589ea74f26b8964</MD5>
-			</ConfigFile>
-			<ConfigFile>
 				<URL priority="0">https://nacjm.github.io/aetherionmod//config/ProjectE/ProjectE.cfg</URL>
 				<Path>config/ProjectE/ProjectE.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
@@ -3948,6 +3949,26 @@ Fancy models: M4thG33k</credits>
 				<Path>config/thaumcraft_misc.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f871ca5744ac8bcaf20b857f8ca41dd8</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="The Dalek Mod" id="thedalekmod" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/thedalekmod-47.0.jar</URL>
+			<Size>91451036</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>34a4c133dc6a2d911ccb6f30fd7eecbd</MD5>
+			<Meta>
+				<credits>Sub, Kaneras, 1WTC, OIWeirdo, Ed</credits>
+				<description>The Dalek Mod is a mod which brings the world of Doctor Who to your game! Whilst playing, you can travel the universe using your very own Tardis, explore a vast array of planets and times, or even battle the sinister Daleks and Cybermen! Play by yourself in singleplayer or go with friends on an amazing adventure in multiplayer!</description>
+				<version>47</version>
+				<url>https://swdteam.com/product/dalek-mod</url>
+				<authors>1WTC, Sub, Kaneras</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/theoneprobe.cfg</URL>
+				<Path>config/theoneprobe.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b39260037b28a3469589ea74f26b8964</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Cultivation" id="thermalcultivation" depends="" side="BOTH">
