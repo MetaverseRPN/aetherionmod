@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.03" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.04" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.3.2655">forge</Import>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DankNull-1.12-1.4.33.jar</URL>
@@ -3310,6 +3310,13 @@ Lilylicious - Assistant developer.</credits>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>ff4b438284b311509eefbaea78f6f377</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="randompatches-1.12.2-1.1.0.0" id="randompatches" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/randompatches-1.12.2-1.1.0.0.jar</URL>
+			<Size>14092</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2dc73bed5ee60985d7319dc693684adb</MD5>
 		</Module>
 		<Module name="RandomTweaks" id="randomtweaks" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/randomtweaks-1.12.2-1.19.0.0.jar</URL>
