@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.05" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.06" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.3.2655">forge</Import>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DankNull-1.12-1.4.33.jar</URL>
@@ -169,6 +169,20 @@
 				<MD5>a02e804c2fa0338824572d194c54de94</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="AimBow" id="aimbow-mod" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/AimBow-1.0.jar</URL>
+			<Size>27457</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>20fae742b1fccb66b7a469f668b5df5d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Helps you aiming your bow.</description>
+				<version>1.0</version>
+				<url></url>
+				<authors></authors>
+			</Meta>
+		</Module>
 		<Module name="Akashic Tome" id="akashictome" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/AkashicTome-1.2-10.jar</URL>
 			<Size>43608</Size>
@@ -188,13 +202,6 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>db018d2a579a67a6515587507240de91</MD5>
 			</ConfigFile>
-		</Module>
-		<Module name="AMod" id="AMod" depends="" side="BOTH">
-			<URL priority="0">https://nacjm.github.io/aetherionmod//AMod.xml</URL>
-			<Size>187902</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>e3073a256f47c6e434e7b531107234fd</MD5>
 		</Module>
 		<Module name="AngelRing 2 Bauble" id="flyringbaublemod" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/angelRingToBauble-1.12-0.3.1.50+d4e654e.jar</URL>
@@ -1139,12 +1146,6 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<url></url>
 				<authors>RWTema</authors>
 			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://nacjm.github.io/aetherionmod//config/minetogether.cfg</URL>
-				<Path>config/minetogether.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9381fc81729c3c9ce3a4cc6eca02f607</MD5>
-			</ConfigFile>
 		</Module>
 		<Module name="DiscordSuite" id="discordsuite" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DiscordSuite-2.0.0.jar</URL>
@@ -2092,6 +2093,13 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<MD5>c8ebddfad48bb39a95894c54614b5cf5</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="ICBM-classic-1.12.2-3.0.0b29" id="ICBM-classic-..-..b" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ICBM-classic-1.12.2-3.0.0b29.jar</URL>
+			<Size>6862073</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2f4471f36e903451a31dc0c7fccf4fa1</MD5>
+		</Module>
 		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ImmersiveEngineering-0.12-80.jar</URL>
 			<Size>5979255</Size>
@@ -2543,15 +2551,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="MatterOverdrive" id="matteroverdrive" depends="" side="BOTH">
-			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/MatterOverdrive-1.12.2-0.6.0.148-universal.jar</URL>
-			<Size>16952908</Size>
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/MatterOverdrive-1.12.2-0.6.0.157-universal.jar</URL>
+			<Size>16962617</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>2f7ed7c573cd6fbcedd11509d083e050</MD5>
+			<MD5>a1575f1a8c50d130a9bdfe04c73c3fc9</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A mod that dwells within matter and energy.</description>
-				<version>1.12.2-0.6.0.148</version>
+				<version>1.12.2-0.6.0.157</version>
 				<url>https://mo.simeonradivoev.com</url>
 				<authors>Coded, Simeon Radivoev, Shadowfacts, Dev_Osmium</authors>
 			</Meta>
@@ -2653,6 +2661,26 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<Path>config/malisisdoors.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>3b496edc645d3655f6c0a763e8a9ee12</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Minebot" id="minebot-mod" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Minebot-v1.12.2.jar</URL>
+			<Size>843901</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2d369b24f849bee9d4d7a009daaeb736</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A bot that does the dull work for you.</description>
+				<version>v1.12.2</version>
+				<url></url>
+				<authors></authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/minetogether.cfg</URL>
+				<Path>config/minetogether.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9381fc81729c3c9ce3a4cc6eca02f607</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Minecraft Forge" id="forge-14.23.3.2655" depends="" side="BOTH">
