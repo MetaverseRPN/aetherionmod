@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.06" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.06.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.3.2655">forge</Import>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DankNull-1.12-1.4.33.jar</URL>
@@ -168,20 +168,6 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a02e804c2fa0338824572d194c54de94</MD5>
 			</ConfigFile>
-		</Module>
-		<Module name="AimBow" id="aimbow-mod" depends="" side="BOTH">
-			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/AimBow-1.0.jar</URL>
-			<Size>27457</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>20fae742b1fccb66b7a469f668b5df5d</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Helps you aiming your bow.</description>
-				<version>1.0</version>
-				<url></url>
-				<authors></authors>
-			</Meta>
 		</Module>
 		<Module name="Akashic Tome" id="akashictome" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/AkashicTome-1.2-10.jar</URL>
