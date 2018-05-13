@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.06.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.07" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.3.2655">forge</Import>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DankNull-1.12-1.4.33.jar</URL>
@@ -920,6 +920,20 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a61cfe03bb98c6dacabb0a84926059f0</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="ComputerCraft" id="computercraft" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ComputerCraft1.80pr1.jar</URL>
+			<Size>1439057</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>79d0e6e87d764d8d89079e53d7729126</MD5>
+			<Meta>
+				<credits>Created by Daniel Ratcliffe (@DanTwoHundred)</credits>
+				<description>ComputerCraft adds Computers, Programming and Robotics to Minecraft.</description>
+				<version>1.80pr1</version>
+				<url>http://www.computercraft.info</url>
+				<authors>Daniel Ratcliffe, Aaron Mills</authors>
+			</Meta>
 		</Module>
 		<Module name="Controlling" id="controlling" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Controlling-3.0.6.jar</URL>
