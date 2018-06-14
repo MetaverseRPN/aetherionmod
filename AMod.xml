@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.07" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.06.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.3.2655">forge</Import>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DankNull-1.12-1.4.33.jar</URL>
@@ -492,6 +492,34 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>e69abda13a172900c1500de952e7ad92</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="Better Questing" id="betterquesting" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/BetterQuesting-3.5.256.jar</URL>
+			<Size>1271687</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>245f82fc447246dd0c5def00c03b552c</MD5>
+			<Meta>
+				<credits>Thank you Patreons for all your support &lt;3</credits>
+				<description>A new and improved questing mod for Minecraft pack creators</description>
+				<version>3.5.256</version>
+				<url></url>
+				<authors>Funwayguy</authors>
+			</Meta>
+		</Module>
+		<Module name="Better Questing Quest Book" id="questbook" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/questbook-3.1.1-1.12.jar</URL>
+			<Size>20203</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>aa802b89cd4244d0bfaff4b60a0f5654</MD5>
+			<Meta>
+				<credits>Funwayguy for making Better Questing.</credits>
+				<description>Quest book to open the quest GUI to reduce keybinding collison.</description>
+				<version>3.1.1-1.12</version>
+				<url></url>
+				<authors>Drethic</authors>
+			</Meta>
 		</Module>
 		<Module name="BetterFps-1.4.8" id="BetterFps" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/BetterFps-1.4.8.jar</URL>
@@ -3921,6 +3949,20 @@ Fancy models: M4thG33k</credits>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d072e39f9488da7deb9ac9fe8e18c5cc</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="Standard Expansion" id="bq_standard" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/StandardExpansion-3.4.141.jar</URL>
+			<Size>396498</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b0a01a56a08a30fba210bb4bfc213b2a</MD5>
+			<Meta>
+				<credits>Thank you Patreons for all your support &lt;3</credits>
+				<description>Contains all the standard tasks, rewards, importers and themes for Better Questing</description>
+				<version>3.4.141</version>
+				<url></url>
+				<authors>Funwayguy</authors>
+			</Meta>
 		</Module>
 		<Module name="Steve&apos;s Carts 2" id="stevescarts" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/StevesCarts-1.12.2-2.4.18.92.jar</URL>
