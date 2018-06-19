@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.07.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.07.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.3.2655">forge</Import>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DankNull-1.12-1.4.33.jar</URL>
@@ -2121,12 +2121,12 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<MD5>c8ebddfad48bb39a95894c54614b5cf5</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="ICBM-classic-1.12.2-3.0.0b29" id="ICBM-classic-..-..b" depends="" side="BOTH">
-			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ICBM-classic-1.12.2-3.0.0b29.jar</URL>
-			<Size>6862073</Size>
+		<Module name="ICBM-classic-1.12.2-3.1.0b38" id="ICBM-classic-..-..b" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ICBM-classic-1.12.2-3.1.0b38.jar</URL>
+			<Size>6874302</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>2f4471f36e903451a31dc0c7fccf4fa1</MD5>
+			<MD5>286f1e1f182f0af0f72b5b3fddb87aad</MD5>
 		</Module>
 		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ImmersiveEngineering-0.12-80.jar</URL>
