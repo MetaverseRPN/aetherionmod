@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.07.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.08" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.3.2655">forge</Import>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DankNull-1.12-1.4.33.jar</URL>
@@ -4081,6 +4081,20 @@ Fancy models: M4thG33k</credits>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>b39260037b28a3469589ea74f26b8964</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="The Twilight Forest" id="twilightforest" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/twilightforest-1.12.2-3.7.424-universal.jar</URL>
+			<Size>7013724</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>259044e6377dab17697557033bbd7ff9</MD5>
+			<Meta>
+				<credits>By Benimatic (Ben Mazur)</credits>
+				<description>An enchanted forest dimension.</description>
+				<version>3.7.424</version>
+				<url>https://minecraft.curseforge.com/projects/the-twilight-forest</url>
+				<authors>Benimatic, AtomicBlom, Drullkus, Killer_Demon, Tamaized, williewillus</authors>
+			</Meta>
 		</Module>
 		<Module name="Thermal Cultivation" id="thermalcultivation" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ThermalCultivation-1.12.2-0.1.5.3-universal.jar</URL>
