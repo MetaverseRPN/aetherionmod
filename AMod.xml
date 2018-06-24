@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.08.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.08.3" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2705">forge</Import>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DankNull-1.12-1.4.33.jar</URL>
@@ -2893,6 +2893,20 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>adcc6ba13d47b824f02353478585bcad</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="Not Enough Items" id="nei" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/NotEnoughItems-1.12.2-2.4.1.233-universal.jar</URL>
+			<Size>465901</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ab2b0106cdcf4f272b4df55743e0bd12</MD5>
+			<Meta>
+				<credits>Alexandria - original idea</credits>
+				<description>Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more.&lt;plugins&gt;&lt;supporters&gt;</description>
+				<version>2.4.1.233</version>
+				<url>http://www.minecraftforum.net/topic/909223</url>
+				<authors>ChickenBones</authors>
+			</Meta>
 		</Module>
 		<Module name="NotEnoughIDs" id="neid" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/NotEnoughIDs-1.5.4.2.jar</URL>
