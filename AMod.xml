@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="https://nacjm.github.io/aetherionmod/news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.08.4" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.08.5" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2705">forge</Import>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DankNull-1.12-1.4.33.jar</URL>
@@ -547,6 +547,12 @@
 				<url>https://minecraft.curseforge.com/projects/binnies-mods</url>
 				<authors>Binnie</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//resources/_DS_Store</URL>
+				<Path>resources/_DS_Store</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f99feb630531178538d01f1ceb49ecd7</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Blockcraftery" id="blockcraftery" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/blockcraftery-0.1.3.jar</URL>
@@ -561,6 +567,12 @@
 				<url></url>
 				<authors>Elucent</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/buildcraft/main.cfg</URL>
+				<Path>config/buildcraft/main.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>be95f2eb631bf2bd9ef5c0d17e146dbf</MD5>
+			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://nacjm.github.io/aetherionmod//config/BlockDrops/modVersions.txt</URL>
 				<Path>config/BlockDrops/modVersions.txt</Path>
@@ -712,38 +724,6 @@
 				<Path>config/brandon3055/Custom Fusion Recipe Info.txt</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>2913dc7b4161e4012cb01c4ee897f3d3</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="BuildCraft Lib" id="buildcraftlib" depends="" side="BOTH">
-			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/buildcraft-7.99.16.jar</URL>
-			<Size>4395460</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>3baa587bc3d927c82f26bd5cb39df764</MD5>
-			<Meta>
-				<credits>Created by SpaceToad</credits>
-				<description>Library mod used by buildcraft.</description>
-				<version>7.99.16-00282663b809</version>
-				<url>http://www.mod-buildcraft.com/</url>
-				<authors>SpaceToad, BuildCraft Team</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://nacjm.github.io/aetherionmod//config/buildcraft/main.cfg</URL>
-				<Path>config/buildcraft/main.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>be95f2eb631bf2bd9ef5c0d17e146dbf</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://nacjm.github.io/aetherionmod//config/buildcraft/detailed.properties</URL>
-				<Path>config/buildcraft/detailed.properties</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>477018b8c33698329e016171fc8bcaa8</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://nacjm.github.io/aetherionmod//config/buildcraft/objects.cfg</URL>
-				<Path>config/buildcraft/objects.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>8ace889d78613f3365fdf4010f0ba7e2</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Ceramics" id="ceramics" depends="" side="BOTH">
@@ -991,6 +971,12 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<authors>BlayTheNinth</authors>
 			</Meta>
 			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/buildcraft/objects.cfg</URL>
+				<Path>config/buildcraft/objects.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8ace889d78613f3365fdf4010f0ba7e2</MD5>
+			</ConfigFile>
+			<ConfigFile>
 				<URL priority="0">https://nacjm.github.io/aetherionmod//config/craftingtweaks.cfg</URL>
 				<Path>config/craftingtweaks.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
@@ -1010,6 +996,12 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<url>http://minetweaker3.powerofbytes.com</url>
 				<authors>StanHebben, Jaredlll08</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/buildcraft/detailed.properties</URL>
+				<Path>config/buildcraft/detailed.properties</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>477018b8c33698329e016171fc8bcaa8</MD5>
+			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://nacjm.github.io/aetherionmod//config/oretweaker.cfg</URL>
 				<Path>config/oretweaker.cfg</Path>
@@ -1529,6 +1521,12 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<Path>config/endercore/cropconfig.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>4d5fe6b6e730947d24068daa34d50a1c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//resources/menu/_DS_Store</URL>
+				<Path>resources/menu/_DS_Store</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c076fa5564f1a6f18de04a8f9f91927b</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="EnderStorage" id="enderstorage" depends="" side="BOTH">
@@ -2496,26 +2494,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>7f619df34ecdf3029ca8f9c3dc0668ca</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Just Enough Resources" id="jeresources" depends="" side="BOTH">
-			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/JustEnoughResources-1.12.2-0.8.7.41.jar</URL>
-			<Size>215140</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>82417033d33f4a478aad6643cc7abb8c</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Adds Resources and Mob Drops to JEI</description>
-				<version>0.8.7</version>
-				<url></url>
-				<authors>way2muchnoise</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://nacjm.github.io/aetherionmod//config/jeresources/jeresources.cfg</URL>
-				<Path>config/jeresources/jeresources.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>b9bf180549c5777d6eb51011400f3426</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="Lapis Stays in the Enchanting Table" id="csb_ench_table" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/EnchantingTable-1.12-1.1.2.jar</URL>
 			<Size>37573</Size>
@@ -2563,6 +2541,12 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<url>www.mmyzd.com</url>
 				<authors>oldjunyi</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/quark.cfg</URL>
+				<Path>config/quark.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e24f93da7cf42f89bc0666d090fd91f5</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Mantle" id="mantle" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Mantle-1.12-1.3.1.21.jar</URL>
@@ -3315,26 +3299,6 @@ Lilylicious - Assistant developer.</credits>
 				<MD5>81d3e1b89b64cd47d6ba41f14364bfb6</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Quark" id="quark" depends="" side="BOTH">
-			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Quark-r1.4-123.jar</URL>
-			<Size>1693068</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>cec934de31cfa396813cd1fa4f896e15</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Small things.</description>
-				<version>r1.4-123</version>
-				<url>http://www.vazkii.us</url>
-				<authors>Vazkii, wiiv</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://nacjm.github.io/aetherionmod//config/quark.cfg</URL>
-				<Path>config/quark.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e24f93da7cf42f89bc0666d090fd91f5</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="Quick Leaf Decay" id="quickleafdecay" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/QuickLeafDecay-MC1.12.1-1.2.4.jar</URL>
 			<Size>7074</Size>
@@ -3623,6 +3587,12 @@ Lilylicious - Assistant developer.</credits>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>6d5538ef37271775ab6b7500f0b61e93</MD5>
 			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/jeresources/jeresources.cfg</URL>
+				<Path>config/jeresources/jeresources.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b9bf180549c5777d6eb51011400f3426</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="RFTools" id="rftools" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/rftools-1.12-7.33.jar</URL>
@@ -3811,17 +3781,17 @@ Lilylicious - Assistant developer.</credits>
 			</Meta>
 		</Module>
 		<Module name="Silent&apos;s Gems" id="silentgems" depends="" side="BOTH">
-			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/SilentsGems-1.12-2.6.9b-265.jar</URL>
-			<Size>2566483</Size>
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/SilentsGems-1.12.2-2.7.2b-270.jar</URL>
+			<Size>2606856</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f2ead3e0cfc5b77056a1e63c6c5cd7d6</MD5>
+			<MD5>7742de1cc9a4ffe6d8bd2b01720209da</MD5>
 			<Meta>
 				<credits>
 Creator: SilentChaos512
 Fancy models: M4thG33k</credits>
 				<description>When diamonds won&apos;t cut it.</description>
-				<version>2.6.9</version>
+				<version>2.7.2</version>
 				<url>http://minecraft.curseforge.com/projects/silents-gems</url>
 				<authors>SilentChaos512</authors>
 			</Meta>
@@ -4277,7 +4247,7 @@ Fancy models: M4thG33k</credits>
 			</ConfigFile>
 		</Module>
 		<Module name="Tinkers&apos; Addons" id="TinkersAddons" depends="" side="BOTH">
-			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Tinkers&apos;%20Addons-1.12.1-1.0.7.jar</URL>
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Tinkers_%20Addons-1.12.1-1.0.7.jar</URL>
 			<Size>44044</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
