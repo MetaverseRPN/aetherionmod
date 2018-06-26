@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.08.5" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="news.html" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="2.08.6" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2705">forge</Import>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DankNull-1.12-1.4.33.jar</URL>
@@ -3767,32 +3767,16 @@ Lilylicious - Assistant developer.</credits>
 			</ConfigFile>
 		</Module>
 		<Module name="Silent Lib" id="SilentLib" depends="" side="BOTH">
-			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/SilentLib-1.12-2.2.18-100.jar</URL>
-			<Size>215687</Size>
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/SilentLib-1.12.2-2.3.2-109.jar</URL>
+			<Size>236892</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e9bb5283969b903c928344e46bc3f8d1</MD5>
+			<MD5>7000bb875582e6696de8751ed6bd4a6a</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Shared library for SilentChaos512&apos;s mods.</description>
-				<version>2.2.18</version>
+				<version>2.3.2</version>
 				<url></url>
-				<authors>SilentChaos512</authors>
-			</Meta>
-		</Module>
-		<Module name="Silent&apos;s Gems" id="silentgems" depends="" side="BOTH">
-			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/SilentsGems-1.12.2-2.7.2b-270.jar</URL>
-			<Size>2606856</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>7742de1cc9a4ffe6d8bd2b01720209da</MD5>
-			<Meta>
-				<credits>
-Creator: SilentChaos512
-Fancy models: M4thG33k</credits>
-				<description>When diamonds won&apos;t cut it.</description>
-				<version>2.7.2</version>
-				<url>http://minecraft.curseforge.com/projects/silents-gems</url>
 				<authors>SilentChaos512</authors>
 			</Meta>
 			<ConfigFile>
