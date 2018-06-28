@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="news.html" iconUrl="icon.png" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="3.0.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="news.html" iconUrl="icon.png" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="3.0.3" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2705">forge</Import>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DankNull-1.12-1.4.33.jar</URL>
@@ -64,15 +64,15 @@
 			</Meta>
 		</Module>
 		<Module name="Advanced Rocketry" id="advancedRocketry" depends="" side="BOTH">
-			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/AdvancedRocketry-1.12.2-1.4.0-77.jar</URL>
-			<Size>11580746</Size>
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/AdvancedRocketry-1.12.2-1.4.0-88-universal.jar</URL>
+			<Size>11582162</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ace51919bad402f613fb3a49c394d3bd</MD5>
+			<MD5>257048a205c8a17330217a4b0cf0b6bc</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A space mod for minecraft, adds planets, rockets, and some machines</description>
-				<version>1.12.2-1.4.0-77</version>
+				<version>1.12.2-1.4.0-88</version>
 				<url>http://minecraft.curseforge.com/projects/advanced-rocketry</url>
 				<authors>zmaster587</authors>
 			</Meta>
