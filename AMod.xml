@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="news.html" iconUrl="icon.png" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="3.0" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="news.html" iconUrl="icon.png" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="3.0.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2705">forge</Import>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DankNull-1.12-1.4.33.jar</URL>
@@ -540,6 +540,26 @@
 				<MD5>9fafc11a63bc72f6d2cfa5a3e3ebd02b</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="BiblioCraft" id="bibliocraft" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/BiblioCraft[v2.4.5][MC1.12.2].jar</URL>
+			<Size>5122856</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5b9f1a1543a1fdf687fe4761e3d63ed4</MD5>
+			<Meta>
+				<credits></credits>
+				<description>BiblioCraft adds fancy storage containers including bookcases, armor stands, potion shelves, regular shelves, tool racks, glass weapon cases, wooden desks and wooden chest labels and now add machines, redstone interactions, and eyeware, fancy lamps and golden lanterns. Also Tables, enchanted plates, map frames, and seats!</description>
+				<version>2.4.5</version>
+				<url>http://www.bibliocraftmod.com</url>
+				<authors>Joseph &apos;Nuchaz&apos; Sinclair</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://nacjm.github.io/aetherionmod//config/buildcraft/main.cfg</URL>
+				<Path>config/buildcraft/main.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>be95f2eb631bf2bd9ef5c0d17e146dbf</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="Binnie Core" id="binniecore" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/binnie-mods-1.12.2-2.5.0.154.jar</URL>
 			<Size>5808431</Size>
@@ -567,12 +587,6 @@
 				<url></url>
 				<authors>Elucent</authors>
 			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://nacjm.github.io/aetherionmod//config/buildcraft/main.cfg</URL>
-				<Path>config/buildcraft/main.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>be95f2eb631bf2bd9ef5c0d17e146dbf</MD5>
-			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://nacjm.github.io/aetherionmod//config/BlockDrops/modVersions.txt</URL>
 				<Path>config/BlockDrops/modVersions.txt</Path>
@@ -2709,6 +2723,20 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>3b496edc645d3655f6c0a763e8a9ee12</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Metamorph" id="metamorph" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/metamorph-1.1.5-1.12.2.jar</URL>
+			<Size>291565</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e844a1d590951d70266bc5926ff2ed92</MD5>
+			<Meta>
+				<credits>SCtester for ideas, feedback and testing, NlL5 for sheep model, Morph and Shape Shifter Z mods for inspiration.  Also big thanks to ycwei982 for testing, adding few features and localization!</credits>
+				<description>Morphing/shape-shifting mod for newer minecraft versions</description>
+				<version>1.1.5-1.12.2</version>
+				<url>https://github.com/mchorse/metamorph</url>
+				<authors>mchorse</authors>
+			</Meta>
+		</Module>
 		<Module name="Minebot" id="minebot-mod" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Minebot-v1.12.2.jar</URL>
 			<Size>843901</Size>
@@ -3438,6 +3466,13 @@ Lilylicious - Assistant developer.</credits>
 				<url></url>
 				<authors></authors>
 			</Meta>
+		</Module>
+		<Module name="PTRLib-1.0.2" id="PTRLib" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/PTRLib-1.0.2.jar</URL>
+			<Size>169353</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>50299a550a3e351defd61a2845caf9c1</MD5>
 		</Module>
 		<Module name="Quick Leaf Decay" id="quickleafdecay" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/QuickLeafDecay-MC1.12.1-1.2.4.jar</URL>
@@ -4185,6 +4220,24 @@ Fancy models: M4thG33k</credits>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f871ca5744ac8bcaf20b857f8ca41dd8</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="The Betweenlands" id="thebetweenlands" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/TheBetweenlands-3.3.9-universal.jar</URL>
+			<Size>79969488</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>395baf6f8c1bd6d5d6caa3e4a6e41e61</MD5>
+			<Meta>
+				<credits>
+ §nDevelopment Team:§r Angry Pixel
+ §nContributors:§r https://github.com/Angry-Pixel/The-Betweenlands/graphs/contributors
+ §nLocalization:§r DYColdWind (zh_CN), RisingInIris2017 (zh_CN), DL_Slime (zh_CN), LIL_SUZEE (ru_RU)
+ §nSpecial Thanks:§r iLexiconn, OnyxDarkNight, SanAndreasP, Stealthgert, Dylan4Ever, Vahkiti, Aginsun, Cricket, FairWolf, Fish2, Hologuard, Hwd45, Iridium616, Ivorius, KazunariAkito, Laskeri, Quintinity, RandumbDude, Robonix, Sagotomi, Sartharis, Stealthgert, Vazkii, ZeuX, calebmanley, daveyx0, kiko0804, Timinations and probably many more!</credits>
+				<description>Introducing The Betweenlands... a dark and hostile environment. This large and expansive mod adds a whole new dimension to the game.</description>
+				<version>3.3.9</version>
+				<url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/mods-discussion/1441135</url>
+				<authors>Angry Pixel</authors>
+			</Meta>
 		</Module>
 		<Module name="The Dalek Mod" id="thedalekmod" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/thedalekmod-47.0.jar</URL>
