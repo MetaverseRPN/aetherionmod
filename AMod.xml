@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="news.html" iconUrl="icon.png" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="3.0.3" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="news.html" iconUrl="icon.png" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="3.1.4" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2705">forge</Import>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DankNull-1.12-1.4.33.jar</URL>
@@ -2167,6 +2167,20 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 				<MD5>c8ebddfad48bb39a95894c54614b5cf5</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="IBE Editor" id="ibeeditor" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/IBEEditor-1.12.2-1.0.0-alpha5.jar</URL>
+			<Size>80257</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0c9c435f001d61341a26fd5c2ca52ba6</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Edit item&apos;s enchants, display name/lore and more !</description>
+				<version>1.0.0-alpha5</version>
+				<url></url>
+				<authors>Franckyi</authors>
+			</Meta>
+		</Module>
 		<Module name="ICBM-classic-1.12.2-3.1.0b38" id="ICBM-classic-..-..b" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/ICBM-classic-1.12.2-3.1.0b38.jar</URL>
 			<Size>6874302</Size>
@@ -2610,6 +2624,20 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>2c7f7ef5a24741be183167c1ecd59b6a</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Map Making Tools" id="mapmakingtools" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/MapMakingTools-1.12-2.5.0.103-universal.jar</URL>
+			<Size>823678</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>29fff4f0befc5696f2e171e2c9f9aa51</MD5>
+			<Meta>
+				<credits>Authored By ProPercivalalb</credits>
+				<description>Very useful for making custom adventure maps.</description>
+				<version>2.5.0.103</version>
+				<url></url>
+				<authors>ProPercivalalb</authors>
+			</Meta>
+		</Module>
 		<Module name="MatterOverdrive" id="matteroverdrive" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/MatterOverdrive-1.12.2-0.6.0.157-universal.jar</URL>
 			<Size>16962617</Size>
@@ -2756,6 +2784,20 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>9381fc81729c3c9ce3a4cc6eca02f607</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="Minecraft Chromium Embedded Framework" id="mcef" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/mcef-1.12.2-0.9.jar</URL>
+			<Size>323311</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dbdb8e026ec019f49ea873c9c2a130b3</MD5>
+			<Meta>
+				<credits>MCEF is based on JCEF https://bitbucket.org/chromiumembedded/java-cef/ under BSD.</credits>
+				<description>API required for mods that uses Chromium in Minecraft</description>
+				<version>1.12.2-0.9</version>
+				<url>https://github.com/montoyo/mcef</url>
+				<authors>montoyo</authors>
+			</Meta>
 		</Module>
 		<Module name="Minecraft Forge" id="forge-14.23.4.2705" depends="" side="BOTH">
 			<Size>100000</Size>
@@ -4651,6 +4693,20 @@ Fancy models: M4thG33k</credits>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>654f5bfc1322c22522532e12fc88c039</MD5>
+		</Module>
+		<Module name="WebDisplays" id="webdisplays" depends="" side="BOTH">
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/webdisplays-1.12.2-1.0.jar</URL>
+			<Size>688747</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a54bcecab7c5c3212fccc31be73dea38</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Web Screens! Yayyy!!</description>
+				<version>1.12.2-1.0</version>
+				<url>https://montoyo.net/wd2.php</url>
+				<authors>montoyo</authors>
+			</Meta>
 		</Module>
 		<Module name="WorldEdit" id="worldedit" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/worldedit-forge-mc1.12-6.1.8-dist.jar</URL>
