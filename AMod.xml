@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="news.html" iconUrl="icon.png" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="3.1.4" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="AMod" abstract="false" name="Aetherion Modpack" newsUrl="news.html" iconUrl="icon.png" version="1.12.2" serverAddress="24.118.167.231:25569" generateList="true" autoConnect="true" revision="3.1.5" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2705">forge</Import>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/DankNull-1.12-1.4.33.jar</URL>
@@ -2082,11 +2082,11 @@ This mod uses textures from the Painterly Pack: http://painterlypack.net/.</cred
 			</ConfigFile>
 		</Module>
 		<Module name="Greg&apos;s SG Craft" id="SGCraft" depends="" side="BOTH">
-			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/SGCraft-1.14.2-mc1.12.2.jar</URL>
-			<Size>1174809</Size>
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/SGCraft-1.3-mc1.12.2.jar</URL>
+			<Size>1175045</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f260e437bdf88ef9cf3ee0a1a1affa24</MD5>
+			<MD5>7cecb5ad4bcc154486f8e6f0e5760164</MD5>
 			<Meta>
 				<credits></credits>
 				<description>SG-1 stargates and other stuff.</description>
@@ -2692,15 +2692,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<MD5>7a336be77ae656fafa9200a4e42094bf</MD5>
 		</Module>
 		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
-			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Mekanism-1.12.2-9.4.3.330.jar</URL>
-			<Size>15993190</Size>
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/Mekanism-1.12.2-9.4.13.349.jar</URL>
+			<Size>16020358</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e2608c622fddf3560b6fadb8164736d7</MD5>
+			<MD5>bf6d861193adb5d51f9eabe072bcd840</MD5>
 			<Meta>
 				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
 				<description>Energy, Armor, Tools, Weapons, Machines, Magic.</description>
-				<version>1.12.2-9.4.3.330</version>
+				<version>1.12.2-9.4.13.349</version>
 				<url></url>
 				<authors>aidancbrady</authors>
 			</Meta>
@@ -2718,29 +2718,29 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="MekanismGenerators" id="mekanismgenerators" depends="" side="BOTH">
-			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/MekanismGenerators-1.12.2-9.4.3.330.jar</URL>
-			<Size>338420</Size>
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/MekanismGenerators-1.12.2-9.4.13.349.jar</URL>
+			<Size>338984</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>6ed4db5f2a9635ceee1058f34e1d84c1</MD5>
+			<MD5>036cfdbdca2b8432ba9b86cccbce8c55</MD5>
 			<Meta>
 				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
 				<description>Generators module of Mekanism.</description>
-				<version>1.12.2-9.4.3.330</version>
+				<version>1.12.2-9.4.13.349</version>
 				<url></url>
 				<authors>aidancbrady</authors>
 			</Meta>
 		</Module>
 		<Module name="MekanismTools" id="mekanismtools" depends="" side="BOTH">
-			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/MekanismTools-1.12.2-9.4.3.330.jar</URL>
-			<Size>161111</Size>
+			<URL priority="0">https://nacjm.github.io/aetherionmod//mods/MekanismTools-1.12.2-9.4.13.349.jar</URL>
+			<Size>161142</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>c0dd879190f51d8accffc6533412b231</MD5>
+			<MD5>b47939b2d81b02670cf9803626a72fd5</MD5>
 			<Meta>
 				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
 				<description>Tools module for Mekanism.</description>
-				<version>1.12.2-9.4.3.330</version>
+				<version>1.12.2-9.4.13.349</version>
 				<url></url>
 				<authors>aidancbrady</authors>
 			</Meta>
